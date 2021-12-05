@@ -1,7 +1,7 @@
 <?php 
   $template='home';
   $page='home';
-  $search_page='cari/'; 
+  $search_page='search/'; 
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['STRIMID'].'inc/datasample.php')?>
@@ -19,18 +19,23 @@
   <section class="section-container pagelist">
     <ul>
       <li>
-        <a class="pagelist-row" href=" ">Halaman Login / Register</a>
+        <a class="pagelist-row" href=" ">Halaman Splash Sceen</a>
+      </li>
+      <li>
+        <a class="pagelist-row" href="login.php">Halaman Login / Register</a>
       </li>
       <li>
         <a class="pagelist-row" href="home.php">Halaman Utama</a>
       </li>
       <li>
-        <div class="pagelist-row">Halaman Channel</div>  
+        <div class="pagelist-row">Halaman Pencarian</div>  
         <ul>
-          <li><a class="pagelist-row" href="3dbotmaker/">Halaman Daftar Video Di Channel</a></li>
-          <li><a class="pagelist-row" href="3dbotmaker/detail.php">Halaman Detail Channel</a></li>
-          <li><a class="pagelist-row" href="3dbotmaker/live.php">Halaman Detail Live Streaming</a></li>
+          <li><a class="pagelist-row" href="search/">Halaman Pencarian Kosong</a></li>
+          <li><a class="pagelist-row" href="search/result.php">Halaman Hasil Pencarian</a></li>
         </ul>
+      </li>
+      <li>
+        <a class="pagelist-row" href="notification/">Halaman Notifikasi</a>
       </li>
     </ul>
   </section>

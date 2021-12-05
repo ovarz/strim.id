@@ -1,8 +1,8 @@
 body{padding:0;}
 footer{display:none !important; visibility:hidden; content-visibility:hidden;}
 .site-container{min-height:100vh; padding:var(--section-space-big);}
+.site-container > span{height:calc(100vh - (2 * var(--section-space-big))); max-height:560px; display:grid; grid-template-rows:1fr auto;}
 .intro-logo img, .intro-button > *{height:48px;}
-.intro-logo{margin-bottom:calc(var(--section-space-huge) * 4);}
 .intro-login{display:grid; grid-gap:var(--section-space-medium);}
 .intro-button{display:flex; column-gap:var(--section-space-small); padding:0 var(--section-space-medium);
 border:2px solid var(--color-link-primary); border-radius:var(--rounded-normal);}
