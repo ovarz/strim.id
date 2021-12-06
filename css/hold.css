@@ -41,7 +41,7 @@ header .back-button{fill:var(--color-link-primary);}
 .header-notification.sticky-curr, .menu-package.sticky-curr{stroke:var(--color-link-secondary) !important;}
 footer{padding:var(--section-space-medium); margin-top:var(--section-space-medium); background-color:#000000; color:var(--color-link-primary); font-size:12px;}
 
-.video-box{border-radius:var(--rounded-normal); overflow:hidden; border-color:rgba(255,255,255,0.15); background-color:hsl(var(--color-bodysticky) / 100%);}
+.video-box{border-radius:var(--rounded-normal); overflow:hidden; border-color:rgba(255,255,255,0.1); background-color:hsl(var(--color-bodysticky) / 100%);}
 .vbl-thumb:after{background:linear-gradient(to bottom, hsl(var(--color-bodysticky) / 0%) 0%, hsl(var(--color-bodysticky) / 100%) 100%);}
 .vbl-label{border-radius:var(--rounded-big); overflow:hidden; line-height:normal; color:var(--color-link-primary) !important;}
 .vbl-label-live{background-color:#95005B;}
