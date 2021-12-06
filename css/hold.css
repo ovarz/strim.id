@@ -1,5 +1,6 @@
 :root{
-  --rounded-normal:16px;
+  --rounded-normal:8px;
+  --rounded-big:16px;
   --color-bodysticky:241deg 88% 9%; 
   --color-link-primary:#FFFFFF; 
   --color-link-secondary:#00B1E9;
@@ -11,15 +12,15 @@
 a, .btn, .streamer-button .btn{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; cursor:pointer;}
 a{color:var(--color-link-primary); fill:var(--color-link-primary);}
 a:hover{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
-.btn, a.btn{border-radius:var(--rounded-normal); background-color:var(--color-link-secondary); color:var(--color-link-primary); fill:var(--color-link-primary);}
+.btn, a.btn{border-radius:var(--rounded-big); background-color:var(--color-link-secondary); color:var(--color-link-primary); fill:var(--color-link-primary);}
 .btn:hover, a.btn:hover{background-color:var(--color-link-tertiary); color:var(--color-link-primary); fill:var(--color-link-primary);}
 .current-page{color:var(--color-link-primary); font-weight:600;}
-.header-logo:hover, .trailer-box:hover .trailer-box-thumb{opacity:0.5;}
+.header-logo:hover, .trailer-box:hover .trailer-box-thumb, .live-box-link:hover{opacity:0.5;}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
-.sticky-button{fill:var(--color-default); color:var(--color-default);}
-.sticky-button:hover{fill:var(--color-link-secondary);}
-.sticky-curr{color:var(--color-link-primary); fill:var(--color-link-primary); font-weight:600 !important;}
+.sticky-button{fill:var(--color-link-primary); color:var(--color-link-primary);}
+.sticky-button:hover{color:var(--color-default); fill:var(--color-default);}
+.sticky-curr{color:var(--color-link-secondary) !important; fill:var(--color-link-secondary) !important; font-weight:600 !important;}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:rgba(255,255,255,0.1);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0;}100%{opacity:1;};}
 @keyframes skeleton-loading{0%{opacity:0;}100%{opacity:1;};}
@@ -31,18 +32,18 @@ a:hover{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 .now-loading .name{text-align:center; font-size:12px; font-style:italic;}
 
 .tab-link{border-color:var(--color-default); color:var(--color-default);}
-.tab-curr{border-color:var(--color-link-primary); color:var(--color-link-primary);}
+.tab-curr{border-color:var(--color-link-primary) !important; color:var(--color-link-primary) !important;}
 
 header, menu{background-color:hsl(var(--color-bodysticky) / 90%);}
 header .back-button{fill:var(--color-link-primary);}
-.header-notification, .menu-package{fill:none !important; stroke:var(--color-default);}
-.header-notification:hover, .menu-package:hover{stroke:var(--color-link-secondary);}
-.header-notification.sticky-curr, .menu-package.sticky-curr{stroke:var(--color-link-primary);}
+.header-notification, .menu-package{fill:none !important; stroke:var(--color-link-primary);}
+.header-notification:hover, .menu-package:hover{stroke:var(--color-default);}
+.header-notification.sticky-curr, .menu-package.sticky-curr{stroke:var(--color-link-secondary) !important;}
 footer{padding:var(--section-space-medium); margin-top:var(--section-space-medium); background-color:#000000; color:var(--color-link-primary); font-size:12px;}
 
 .video-box{border-radius:var(--rounded-normal); overflow:hidden; border-color:rgba(255,255,255,0.15); background-color:hsl(var(--color-bodysticky) / 100%);}
 .vbl-thumb:after{background:linear-gradient(to bottom, hsl(var(--color-bodysticky) / 0%) 0%, hsl(var(--color-bodysticky) / 100%) 100%);}
-.vbl-label{border-radius:var(--rounded-normal); overflow:hidden; line-height:normal; color:var(--color-link-primary) !important;}
+.vbl-label{border-radius:var(--rounded-big); overflow:hidden; line-height:normal; color:var(--color-link-primary) !important;}
 .vbl-label-live{background-color:#95005B;}
 .vbl-label-vod{background-color:#004A7B;}
 
@@ -55,6 +56,11 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 .tbi-button{border-radius:var(--rounded-normal); margin-top:var(--section-space-small);}
 .tbi-button:hover{border-color:var(--color-link-secondary);}
 .tbi-icon .flex_ori{border-radius:50%; overflow:hidden;}
+
+.vbl-label-subscriber{background-color:var(--color-link-tertiary);}
+
+.sld-label{color:var(--color-default);}
+.sld-curr *{color:var(--color-link-tertiary) !important;}
 
 .streamer-box{border-color:rgba(255,255,255,0.1);}
 .streamer-thumb > .flex_ori{border-radius:50%; overflow:hidden;}

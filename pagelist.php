@@ -37,6 +37,22 @@
       <li>
         <a class="pagelist-row" href="notification/">Halaman Notifikasi</a>
       </li>
+      <li>
+        <div class="pagelist-row">Halaman Daftar Streamer</div>  
+        <ul>
+          <li><a class="pagelist-row" href="streamer/">Halaman Daftar Streamer Terbaru</a></li>
+          <li><a class="pagelist-row" href="streamer/favorites.php">Halaman Daftar Streamer Favorit</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="pagelist-row">Halaman Live Streaming</div>  
+        <ul>
+          <li><a class="pagelist-row" href="live/">Halaman Live Streaming Terbaru</a></li>
+          <li><a class="pagelist-row" href="live/schedule.php">Halaman Jadwal Live Streaming</a></li>
+          <li><a class="pagelist-row" href="live/detail.php">Halaman Detail Live Streaming</a></li>
+          <li><a class="pagelist-row" href="live/detail-chat.php">Halaman Chat Live Streaming</a></li>
+        </ul>
+      </li>
     </ul>
   </section>
 </div>
