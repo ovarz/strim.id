@@ -49,8 +49,6 @@
         <ul>
           <li><a class="pagelist-row" href="live/">Halaman Live Streaming Terbaru</a></li>
           <li><a class="pagelist-row" href="live/schedule.php">Halaman Jadwal Live Streaming</a></li>
-          <li><a class="pagelist-row" href="live/detail.php">Halaman Detail Live Streaming</a></li>
-          <li><a class="pagelist-row" href="live/detail-chat.php">Halaman Chat Live Streaming</a></li>
         </ul>
       </li>
     </ul>

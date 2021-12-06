@@ -15,7 +15,7 @@ a:hover{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 .btn, a.btn{border-radius:var(--rounded-big); background-color:var(--color-link-secondary); color:var(--color-link-primary); fill:var(--color-link-primary);}
 .btn:hover, a.btn:hover{background-color:var(--color-link-tertiary); color:var(--color-link-primary); fill:var(--color-link-primary);}
 .current-page{color:var(--color-link-primary); font-weight:600;}
-.header-logo:hover, .trailer-box:hover .trailer-box-thumb, .live-box-link:hover{opacity:0.5;}
+.header-logo:hover, .trailer-box:hover .trailer-box-thumb, .live-box-link:hover, .streamer-thumb .flex_ori:hover{opacity:0.5;}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
 .sticky-button{fill:var(--color-link-primary); color:var(--color-link-primary);}
