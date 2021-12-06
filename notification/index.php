@@ -11,7 +11,7 @@
 
 <div class="site-container">
   <section class="section-container section-notification">
-    <div class="notification-list">
+    <div class="streamer-list">
       <?php for ($i=1; $i <= 3; $i++) { ?>
         <?php $notification='newcontent'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>
         <?php $notification='reply'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>

@@ -8,7 +8,7 @@
   --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
 }
 
-a, .btn, .notification-button .btn{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; cursor:pointer;}
+a, .btn, .streamer-button .btn{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; cursor:pointer;}
 a{color:var(--color-link-primary); fill:var(--color-link-primary);}
 a:hover{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 .btn, a.btn{border-radius:var(--rounded-normal); background-color:var(--color-link-secondary); color:var(--color-link-primary); fill:var(--color-link-primary);}
@@ -29,6 +29,9 @@ a:hover{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 .now-loading{margin-top:var(--section-space-medium);}
 .now-loading .bar{width:100%; height:7px; margin-bottom:5px; border-radius:var(--rounded-normal); background-color:var(--color-link-secondary);}
 .now-loading .name{text-align:center; font-size:12px; font-style:italic;}
+
+.tab-link{border-color:var(--color-default); color:var(--color-default);}
+.tab-curr{border-color:var(--color-link-primary); color:var(--color-link-primary);}
 
 header, menu{background-color:hsl(var(--color-bodysticky) / 90%);}
 header .back-button{fill:var(--color-link-primary);}
@@ -53,10 +56,12 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 .tbi-button:hover{border-color:var(--color-link-secondary);}
 .tbi-icon .flex_ori{border-radius:50%; overflow:hidden;}
 
-.notification-box{border-color:rgba(255,255,255,0.1);}
-.notification-thumb > .flex_ori{border-radius:50%; overflow:hidden;}
-.notification-info{line-height:140%;}
-.notification-info span{font-weight:normal; color:var(--color-default);}
+.streamer-box{border-color:rgba(255,255,255,0.1);}
+.streamer-thumb > .flex_ori{border-radius:50%; overflow:hidden;}
+.streamer-info{line-height:140%;}
+.streamer-info span{font-weight:normal; color:var(--color-default);}
+.streamer-button .btn-followed{border-color:var(--color-link-secondary); background-color:transparent;}
+.streamer-button .btn-followed:hover{border-color:var(--color-link-tertiary);}
 
 
 @media screen and (min-width:0px) and (max-width:1023px){

@@ -1,4 +1,4 @@
-<a class="notification-box" 
+<a class="streamer-box" 
   <?php if($notification == 'newcontent') { ?>
     href="username/package/detail.php"
   <?php } ?>
@@ -9,12 +9,12 @@
     href="username/"
   <?php } ?>
 >
-  <div class="notification-thumb">
+  <div class="streamer-thumb">
     <div class="flex_ori thumb-loading">
       <img class="lazyload" data-original="img/sample/profile-<?php echo rand(1,20); ?>.jpg" />
     </div>
   </div>
-  <div class="notification-info">
+  <div class="streamer-info">
     <div>
       <b><?php echo $random_name[array_rand($random_name)]; ?></b>
       <span>
@@ -25,7 +25,7 @@
       </span>
     </div>
   </div>
-  <div class="notification-button">
+  <div class="streamer-button">
     <div class="btn">
       <?php if($notification == 'newcontent') { ?>Watch<?php } ?>
       <?php if($notification == 'reply') { ?>Reply<?php } ?>
