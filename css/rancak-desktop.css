@@ -5,3 +5,10 @@ body{--menu-desktop-width:200px; padding-left:var(--menu-desktop-width);}
 menu{top:var(--body-padding); z-index:calc(var(--max-zindex) - 3000); left:0; width:var(--menu-desktop-width); height:calc(100vh - var(--body-padding));
 border-right:1px solid rgba(255,255,255,0.15);}
 menu .sticky-button > span{display:flex; gap:var(--section-space-medium); width:100%; padding:0 var(--section-space-medium);} 
+
+.live-list{grid-gap:var(--section-space-medium);}
+.live-box{padding:var(--section-space-medium); border:1px solid;}
+
+.section-cover{max-height:160px;}
+
+.section-package .package-button{display:inline-flex;}

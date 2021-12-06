@@ -1,5 +1,8 @@
 <article class="video-box">
-  <a class="video-box-link" href="username/package/detail.php">
+  <a class="video-box-link" 
+    <?php if($video_type == 'live') { ?>href="username/package/live.php"<?php } ?>
+    <?php if($video_type == 'vod') { ?>href="username/package/vod.php"<?php } ?>
+  >
     <div class="vbl-thumb flex_ori thumb-loading">
       <img class="lazyload" data-original="img/sample/sample-<?php echo rand(1,20); ?>.jpg" />
       <?php if($video_type == 'live') { ?><div class="vbl-label vbl-label-live">Live</div><?php } ?>

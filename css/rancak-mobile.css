@@ -15,3 +15,6 @@ background-color:hsl(var(--color-bodysticky) / 90%);}
 .dummy-iphonebar:before{content:''; display:block; background-color:#FFF; width:160px; height:5px; position:relative; top:4px; border-radius:var(--rounded-normal);}
 
 .section-trailer{margin:0;}
+
+.live-list{grid-gap:var(--section-space-huge);}
+.live-box{border-bottom:1px dashed rgba(255,255,255,0.25); padding-bottom:var(--section-space-huge);}

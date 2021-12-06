@@ -38,6 +38,9 @@
         <a class="pagelist-row" href="notification/">Halaman Notifikasi</a>
       </li>
       <li>
+        <a class="pagelist-row" href="package/">Halaman Semua Package</a>
+      </li>
+      <li>
         <div class="pagelist-row">Halaman Daftar Streamer</div>  
         <ul>
           <li><a class="pagelist-row" href="streamer/">Halaman Daftar Streamer Terbaru</a></li>
@@ -49,6 +52,15 @@
         <ul>
           <li><a class="pagelist-row" href="live/">Halaman Live Streaming Terbaru</a></li>
           <li><a class="pagelist-row" href="live/schedule.php">Halaman Jadwal Live Streaming</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="pagelist-row">Halaman Profil Streamer</div>  
+        <ul>
+          <li><a class="pagelist-row" href="username/">Halaman Detail Profil Streamer</a></li>
+          <li><a class="pagelist-row" href="username/package/">Halaman Daftar Paket per Streamer</a></li>
+          <li><a class="pagelist-row" href="username/package/live.php">Halaman Daftar Live Steraming per Streamer</a></li>
+          <li><a class="pagelist-row" href="username/package/vod.php">Halaman Daftar VOD per Streamer</a></li>
         </ul>
       </li>
     </ul>
