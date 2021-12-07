@@ -64,6 +64,13 @@
           <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar VOD per Streamer</a></li>
         </ul>
       </li>
+      <li>
+        <div class="pagelist-row">Halaman Detail</div>  
+        <ul>
+          <li><a class="pagelist-row" href="username/package/live/detail.php">Halaman Detail Live Streaming</a></li>
+          <li><a class="pagelist-row" href="username/package/live/chat.php">Halaman Chat Live Streaming</a></li>
+        </ul>
+      </li>
     </ul>
   </section>
 </div>
