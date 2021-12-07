@@ -8,7 +8,8 @@ menu .sticky-button > span{display:flex; gap:var(--section-space-medium); width:
 
 .live-list{grid-gap:var(--section-space-medium);}
 .live-box{padding:var(--section-space-medium); border:1px solid;}
+.package-empty{min-height:calc(100vh - (2 * var(--body-padding)));}
 
 .section-cover{max-height:160px;}
-
 .section-package .package-button{display:inline-flex;}
+.section-player{margin-bottom:0; z-index:1; max-height:560px; background-color:#000;}

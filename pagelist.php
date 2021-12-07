@@ -59,8 +59,9 @@
         <ul>
           <li><a class="pagelist-row" href="username/">Halaman Detail Profil Streamer</a></li>
           <li><a class="pagelist-row" href="username/package/">Halaman Daftar Paket per Streamer</a></li>
-          <li><a class="pagelist-row" href="username/package/live.php">Halaman Daftar Live Steraming per Streamer</a></li>
-          <li><a class="pagelist-row" href="username/package/vod.php">Halaman Daftar VOD per Streamer</a></li>
+          <li><a class="pagelist-row" href="username/package/empty.php">Halaman Daftar Paket Kosong</a></li>
+          <li><a class="pagelist-row" href="username/package/live/">Halaman Daftar Live Steraming per Streamer</a></li>
+          <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar VOD per Streamer</a></li>
         </ul>
       </li>
     </ul>

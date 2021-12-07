@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="ssp-info">
-      <div class="ssp-name"><?php echo $random_name[array_rand($random_name)]; ?></div>
+      <a class="ssp-name" href="username/"><?php echo $random_name[array_rand($random_name)]; ?></a>
       <div class="ssp-followers">000K Followers</div>
     </div>
     <div class="ssp-button streamer-button">

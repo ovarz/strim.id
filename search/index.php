@@ -19,7 +19,7 @@
       <div class="search-empty-icon content_center">
         <img src="img/asset/empty-data.png" />
       </div>
-      <div class="search-empty-label">Data tidak ditemukan</div>
+      <div class="search-empty-label">Data not available</div>
     </span>
   </div>
 </div>
