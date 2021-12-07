@@ -8,7 +8,7 @@
   --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
 }
 
-a, .btn, .streamer-button .btn{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; cursor:pointer;}
+a, .btn, .streamer-button .btn, .din-button{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; cursor:pointer;}
 a{color:var(--color-link-primary); fill:var(--color-link-primary);}
 a:hover{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 .btn, a.btn{border-radius:var(--rounded-normal); background-color:var(--color-link-secondary); color:var(--color-link-primary); fill:var(--color-link-primary);}
@@ -81,6 +81,11 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 .detail-info-title{color:var(--color-link-primary);}
 .detail-info-other{font-size:12px;}
 .detail-info-other > span{border-color:var(--color-default);}
+
+.din-button{border-color:rgba(255,255,255,0.25); background-color:hsl(var(--color-bodysticky) / 100%); fill:var(--color-link-primary); border-radius:var(--rounded-normal);}
+.din-button:hover{border-color:var(--color-link-tertiary); background-color:var(--color-link-tertiary);}
+
+.section-profile-name{color:var(--color-link-primary);}
 
 @media screen and (min-width:0px) and (max-width:1023px){
   footer{padding-bottom:calc(var(--section-space-medium) + var(--body-padding) + var(--body-bottomspace));}

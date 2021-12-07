@@ -12,4 +12,4 @@ menu .sticky-button > span{display:flex; gap:var(--section-space-medium); width:
 
 .section-cover{max-height:160px;}
 .section-package .package-button{display:inline-flex;}
-.section-player{margin-bottom:0; z-index:1; max-height:560px; background-color:#000;}
+.section-player{margin-bottom:0; z-index:1; max-height:560px; background-color:#000; overflow:hidden;}
