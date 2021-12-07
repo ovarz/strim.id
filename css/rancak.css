@@ -36,7 +36,7 @@ header .sticky-button{padding:0 calc(var(--section-space-tiny) + var(--section-s
 
 menu .sticky-button{font-weight:normal;}
 
-.site-container{display:grid; grid-gap:var(--section-space-small); grid-template-rows:min-content;}
+.site-container{display:grid; grid-gap:var(--section-space-small); grid-template-rows:min-content; align-items:start;}
 .section-container{margin:var(--section-space-medium);}
 
 .section-tab{margin:0; display:flex;}

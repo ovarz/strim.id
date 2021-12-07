@@ -1,16 +1,16 @@
 <article class="trailer-box">
-  <a class="trailer-box-thumb flex_ori thumb-loading" href="username/package/detail.php">
+  <a class="trailer-box-thumb flex_ori thumb-loading" href="username/package/vod/detail.php">
     <img class="lazyload" data-original="img/sample/portrait-<?php echo rand(1,10); ?>.jpg" />
   </a>
   <div class="trailer-box-info">
     <div class="tbi-detail">
-      <a class="tbi-title" href="username/package/detail.php">
+      <a class="tbi-title" href="username/package/vod/detail.php">
         <?php echo $random_title[array_rand($random_title)]; ?>
       </a>
       <div class="tbi-desc">
         <?php echo $random_summary[array_rand($random_summary)]; ?>
       </div>
-      <a class="tbi-button" href="username/package/detail.php">
+      <a class="tbi-button" href="username/package/vod/detail.php">
         <span>More Detail</span>
         <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"/></svg>
       </a>
