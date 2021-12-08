@@ -14,7 +14,7 @@
   
   
   
-  <section class="section-container section-tab">
+  <section class="section-container section-tab detail-section-tab">
     <a class="tab-link tab-curr" href="username/package/vod/detail.php">Description</a>
     <a class="tab-link" href="username/package/vod/comment.php">Comment</a>
   </section>

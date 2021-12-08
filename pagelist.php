@@ -69,6 +69,8 @@
         <ul>
           <li><a class="pagelist-row" href="username/package/live/detail.php">Halaman Detail Live Streaming</a></li>
           <li><a class="pagelist-row" href="username/package/live/chat.php">Halaman Chat Live Streaming</a></li>
+          <li><a class="pagelist-row" href="username/package/vod/detail.php">Halaman Detail VOD</a></li>
+          <li><a class="pagelist-row" href="username/package/vod/comment.php">Halaman Comment VOD</a></li>
         </ul>
       </li>
     </ul>

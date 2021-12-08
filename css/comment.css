@@ -1,0 +1,31 @@
+.comment .section-title{margin-bottom:var(--section-space-small);}
+.comment-form{display:flex; flex-wrap:wrap; justify-content:space-between; gap:var(--section-space-small);}
+.comment-form-field{width:100%; padding:var(--section-space-small) 0; color:var(--color-link-primary);
+background-color:transparent; border:0; border-bottom:1px solid rgba(255,255,255,0.1);}
+.comment-form-user > span{display:flex; gap:var(--section-space-small);}
+.comment-form-thumb{width:24px; height:24px; border-radius:50%; overflow:hidden;}
+
+.cbp-hide, .comment-reply, .comment-form-inside{display:none;}
+.comment-list{--thumb-size:48px; margin-top:var(--section-space-big); border-top:1px dashed rgba(255,255,255,0.1);}
+.comment-reply{margin-left:calc(var(--thumb-size) + var(--section-space-small));}
+.comment-content{display:grid; grid-template-columns:var(--thumb-size) 1fr; grid-column-gap:var(--section-space-medium);
+padding:var(--section-space-medium) 0; border-bottom:1px dashed rgba(255,255,255,0.1);}
+.comment-thumb-box{width:var(--thumb-size); height:var(--thumb-size); border-radius:50%;}
+.comment-thumb-box:hover{opacity:0.5;}
+.comment-info{justify-content:flex-start;}
+.comment-info a{color:var(--color-link-secondary); fill:var(--color-link-secondary); font-weight:normal; align-items:center;}
+.comment-info a:hover{color:var(--color-link-tertiary); fill:var(--color-link-tertiary);}
+.comment-info > span{display:flex; flex-wrap:wrap; gap:var(--section-space-small);}
+.comment-info .svgicon-dropdown{height:6px;}
+.comment-detail{width:100%; font-size:16px; color:var(--color-link-primary); line-height:150%;}
+.comment-list-button, .comment-list-button > div{display:flex; gap:3px; opacity:1 !important;}
+.comment-list-button .svgicon-dropdown{transition:all 0.25s;}
+.comment-form-inside{width:100%; font-size:14px; padding-bottom:var(--section-space-small);}
+.comment-form-show .svgicon-dropdown{transform:rotate(180deg);}
+@media screen and (min-width:0px) and (max-width:374px){
+  .comment-list{--thumb-size:42px;}
+  .comment-info{justify-content:flex-start; font-size:12px;}
+}
+
+.comment-loadmore{display:flex; justify-content:flex-end; margin-top:var(--section-space-small); align-items:center; gap:var(--section-space-small);}
+.comment-loadmore .fas{margin-left:var(--section-space-small);}

@@ -5,8 +5,8 @@
 .desktop-only{display:none !important; visibility:hidden; content-visibility:hidden;}
 .desktop-only iframe[loading=lazy]{content-visibility:hidden !important;}
 
-menu{bottom:var(--body-bottomspace); left:0; width:100%; display:flex; border-top:1px solid rgba(255,255,255,0.15);}
-menu .sticky-button{width:100%;}
+menu{position:fixed; z-index:calc(var(--max-zindex) - 2000); bottom:var(--body-bottomspace); left:0; width:100%; display:flex; border-top:1px solid rgba(255,255,255,0.15);}
+menu .sticky-button{width:100%; font-weight:normal;}
 menu .sticky-button svg{height:18px;}
 menu .menu-label{font-size:10px; margin-top:var(--section-space-tiny);}
 

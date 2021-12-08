@@ -14,7 +14,7 @@
   
   
   
-  <section class="section-container section-tab">
+  <section class="section-container section-tab detail-section-tab">
     <a class="tab-link tab-curr" href="username/package/live/detail.php">Description</a>
     <a class="tab-link" href="username/package/live/chat.php">Chat</a>
   </section>

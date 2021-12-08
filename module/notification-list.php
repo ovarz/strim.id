@@ -1,9 +1,9 @@
 <a class="streamer-box" 
   <?php if($notification == 'newcontent') { ?>
-    href="username/package/detail.php"
+    href="username/package/vod/detail.php"
   <?php } ?>
   <?php if($notification == 'reply' || $notification == 'mention') { ?>
-    href="username/package/detail-comment.php"
+    href="username/package/vod/comment.php"
   <?php } ?>
   <?php if($notification == 'newstreamer') { ?>
     href="username/"

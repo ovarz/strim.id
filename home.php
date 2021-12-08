@@ -17,7 +17,7 @@
         <?php for ($i=1; $i <= 2; $i++) { ?>
           <?php $stories='profile'; $stories_live='yes'; require ($_SERVER['STRIMID'].'module/stories-list.php')?>
         <?php } ?>
-        <?php for ($i=1; $i <= 5; $i++) { ?>
+        <?php for ($i=1; $i <= 8; $i++) { ?>
           <?php $stories='profile'; $stories_live='no'; require ($_SERVER['STRIMID'].'module/stories-list.php')?>
         <?php } ?>
       </div>

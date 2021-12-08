@@ -29,12 +29,10 @@ a{font-weight:600;}
 .sticky-button img, .sticky-button svg{height:24px;}
 .svgicon-back{transform:rotate(180deg);}
 
-header, menu{position:fixed; z-index:calc(var(--max-zindex) - 2000);}
 header, header > div{display:flex;}
-header{top:0; left:0; width:100%; display:flex; justify-content:space-between; padding:0 var(--section-space-tiny); border-bottom:1px solid rgba(255,255,255,0.15);}
+header{position:fixed; z-index:calc(var(--max-zindex) - 2000); top:0; left:0; width:100%; display:flex; justify-content:space-between; padding:0 var(--section-space-tiny); 
+border-bottom:1px solid rgba(255,255,255,0.15);}
 header .sticky-button{padding:0 calc(var(--section-space-tiny) + var(--section-space-small));}
-
-menu .sticky-button{font-weight:normal;}
 
 .site-container{display:grid; grid-gap:var(--section-space-small); grid-template-rows:min-content; align-items:start;}
 .section-container{margin:var(--section-space-medium);}
@@ -59,6 +57,7 @@ menu .sticky-button{font-weight:normal;}
 .vbl-data-icon .svgicon{height:14px;}
 .vbl-data-label{font-size:12px;}
 
+.section-stories{margin-bottom:var(--section-space-small);}
 .stories-list, .stories-list-container{height:86px;}
 .stories-list{position:relative;}
 .stories-list-container{position:absolute; top:0; left:0; width:100%; display:inline-block; 
