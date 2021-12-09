@@ -111,7 +111,7 @@ display:grid; grid-template-columns:100px 1fr 90px;}
 .section-info-bottom .streamer-box{border-top:1px dashed; padding-top:var(--section-space-medium); margin-top:var(--section-space-medium);}
 .sib-desc{line-height:140%;}
 
-.detail-container{grid-template-rows:auto auto auto 1fr; grid-gap:var(--section-space-tiny);}
+.detail-container{grid-template-rows:auto auto auto 1fr;}
 .detail-info{margin-bottom:0;}
 .detail-info-title{font-weight:600; font-size:18px; line-height:140%;}
 .detail-info-other, .detail-info-other > span{margin-top:var(--section-space-tiny);}
