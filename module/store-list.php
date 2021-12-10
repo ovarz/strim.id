@@ -1,7 +1,7 @@
 
   <a class="store-box-link" href="store/detail.php">
     <div class="sbl-thumb flex_ori thumb-loading">
-      <img class="lazyload" data-original="img/sample/sample-<?php echo rand(1,20); ?>.jpg" />
+      <img class="lazyload" data-original="img/sample/item-<?php echo rand(1,10); ?>.webp" />
     </div>
     <div class="sbl-title">
       <?php echo $random_store[array_rand($random_store)]; ?>

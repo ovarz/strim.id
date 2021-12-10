@@ -46,7 +46,7 @@ footer{padding:var(--section-space-medium); margin-top:var(--section-space-mediu
 .vbl-label-live{background-color:#95005B;}
 .vbl-label-vod{background-color:#004A7B;}
 
-.store-box-link{border-radius:var(--rounded-normal); overflow:hidden; border-color:rgba(255,255,255,0.1);}
+.store-box-link{border-radius:var(--rounded-normal); overflow:hidden; border-color:rgba(255,255,255,0.1); background-color:#1A3B5F;}
 .package-button, .profilepage-button{border-color:var(--color-link-primary);}
 .package-button:hover, .profilepage-button:hover{border-color:var(--color-link-tertiary);}
 
@@ -56,9 +56,10 @@ footer{padding:var(--section-space-medium); margin-top:var(--section-space-mediu
 background-color:var(--color-link-tertiary); border:var(--section-space-tiny) solid var(--color-background);}
 
 .trailer-box-info{background:linear-gradient(to bottom, hsl(var(--color-bodysticky) / 0%) 0%, hsl(var(--color-bodysticky) / 100%) 100%);}
+.tbi-desc{color:color:var(--color-default);}
 .tbi-button{border-radius:var(--rounded-normal); margin-top:var(--section-space-small);}
 .tbi-button:hover{border-color:var(--color-link-secondary);}
-.tbi-icon .flex_ori{border-radius:50%; overflow:hidden;}
+.tbi-icon .flex_ori{border-radius:50%; overflow:hidden; border-color:var(--color-link-primary);}
 
 .vbl-label-subscriber{background-color:var(--color-link-tertiary);}
 

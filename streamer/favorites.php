@@ -1,6 +1,6 @@
 <?php 
   $template='streamer';
-  $page='streamer';
+  $page='streamer-follow';
   $search_page='search/'; 
   require ('../inc/base.php')
 ?>
@@ -11,8 +11,8 @@
 
 <div class="site-container">
   <section class="section-container section-tab">
-    <a class="tab-link" href="streamer/">Recent</a>
-    <a class="tab-link tab-curr" href="streamer/favorites.php">Favorites</a>
+    <a class="tab-link" href="streamer/">Explore</a>
+    <a class="tab-link tab-curr" href="streamer/favorites.php">Following</a>
   </section>
 
   <section class="section-container section-streamer">

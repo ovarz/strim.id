@@ -11,8 +11,8 @@
 
 <div class="site-container">
   <section class="section-container section-tab">
-    <a class="tab-link tab-curr" href="streamer/">Recent</a>
-    <a class="tab-link" href="streamer/favorites.php">Favorites</a>
+    <a class="tab-link tab-curr" href="streamer/">Explore</a>
+    <a class="tab-link" href="streamer/favorites.php">Following</a>
   </section>
 
   <section class="section-container section-streamer">

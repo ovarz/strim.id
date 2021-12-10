@@ -25,10 +25,6 @@
   <section class="section-container section-profile-data">
     <div class="spd-list">
       <ul>
-        <li class="spd-left">Full Name</li>
-        <li class="spd-right">: <?php echo $random_name[array_rand($random_name)]; ?></li>
-      </ul>
-      <ul>
         <li class="spd-left">Email</li>
         <li class="spd-right">: <?php echo $random_name[array_rand($random_name)]; ?>@gmail.com</li>
       </ul>
@@ -37,7 +33,11 @@
         <li class="spd-right">: +62 000 0000 0000</li>
       </ul>
       <ul>
-        <li class="spd-left">Sex</li>
+        <li class="spd-left">Birthday</li>
+        <li class="spd-right">: 00 January 0000</li>
+      </ul>
+      <ul>
+        <li class="spd-left">Gender</li>
         <li class="spd-right">: Male</li>
       </ul>
     </div>

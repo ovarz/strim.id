@@ -15,19 +15,16 @@
   
   
   <section class="section-container section-tab">
-    <a class="tab-link tab-curr" href="username/">Package</a>
-    <a class="tab-link" href="username/store.php">Store</a>
+    <a class="tab-link" href="username/">Package</a>
+    <a class="tab-link tab-curr" href="username/store.php">Store</a>
   </section>
   
   
   
-  <section class="section-container section-package">
-    <div class="package-list">
-      <?php for ($i=1; $i <= 2; $i++) { ?>
-        <?php $package_origin='no'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
-      <?php } ?>
-      <?php for ($i=1; $i <= 8; $i++) { ?>
-        <?php $package_origin='no'; $package_type='free'; require ($_SERVER['STRIMID'].'module/package-list.php')?>
+  <section class="section-container section-store">
+    <div class="store-list">
+      <?php for ($i=1; $i <= 10; $i++) { ?>
+        <?php require ($_SERVER['STRIMID'].'module/store-list.php')?>
       <?php } ?>
     </div>
   </section>

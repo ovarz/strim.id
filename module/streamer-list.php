@@ -10,9 +10,11 @@
       <div class="streamer-subscriber">000K subscriber</div>
     </div>
   </div>
+  <?php if($page != 'streamer-follow') { ?>
   <div class="streamer-button">
     <button class="btn <?php if($follow == 'yes') { ?>btn-followed<?php } ?>">
       Follow<?php if($follow == 'yes') { ?>ed<?php } ?>
     </button>
   </div>
+  <?php } ?>
 </div>
