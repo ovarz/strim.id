@@ -15,6 +15,7 @@
   
   
   <section class="section-container section-video">
+    <div class="section-title">Lorem Ipsum</div>
     <div class="video-list">
       <?php for ($i=1; $i <= 24; $i++) { ?>
         <?php $video_type='vod'; require ($_SERVER['STRIMID'].'module/video-list.php')?>

@@ -4,4 +4,5 @@
   $random_name=array("Pay Joe","Marr Juo Kye","Jumy N'Ten","Shuu Trysh Noe","U Choqq","Bham Bank","Bank Toy Yiep","Pho Nie Mann","Rhou Jya Lee","Rush Die","Soul as Three","Pay Joe","Marr Juo Kye","Jumy N'Ten","Shuu Trysh Noe","U Choqq","Bham Bank","Bank Toy Yiep","Pho Nie Mann","Rhou Jya Lee","Rush Die","Soul as Three");
   $random_package=array("tvOne News & Sports","VLIX Gaming","The Interview","Vlix Cinema","RABONA","One Pride MMA","Jelang Laga","Travelogue","OTOVIVA","Makan di Mana?","Suara Jakarta","
 Satu Kota, Satu Juara","Interio","Matchday Vlog: Big Match Uncover!","Sexy 50K Cooking With Puput Carolina","News Flash","VIVA Top 3");
+  $random_store=array("ASUS ROG STRIX-G G513QC-R735B6T-O","Razer BlackShark V2 X","Razer Hammerhead True Wireless X","Logitech G300s","Rexus Daxa Air II Pro","Cooler Master MH-752","HP Pavilion Gaming 15-ec2047AX","Fantech G13 RHASTA II Pro","Delux M800 D","Hp Gaming Omen 16 c0099AX R9-5900H");
 ?>

@@ -3,12 +3,15 @@
 menu{display:none;}
 header menu{display:flex;}
 
+.package-button, .profilepage-button{display:inline-flex;}
+
 .live-list{grid-gap:var(--section-space-medium);}
 .live-box{padding:var(--section-space-medium); border:1px solid;}
 .package-empty{min-height:calc(100vh - (2 * var(--body-padding)));}
 
 .section-cover{max-height:160px;}
-.section-package .package-button{display:inline-flex;}
 .section-player{margin:0; z-index:1; max-height:560px; background-color:#000; overflow:hidden;}
 
 .detail-info, .detail-section-tab, .section-info-bottom{width:100%; max-width:1000px; margin-left:auto; margin-right:auto;}
+
+.spd-list, .section-profile-data{justify-content:center; text-align:center;}

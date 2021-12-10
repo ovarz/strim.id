@@ -22,6 +22,33 @@
   
   
   
+  <section class="section-container section-profile-data">
+    <div class="spd-list">
+      <ul>
+        <li class="spd-left">Full Name</li>
+        <li class="spd-right">: <?php echo $random_name[array_rand($random_name)]; ?></li>
+      </ul>
+      <ul>
+        <li class="spd-left">Email</li>
+        <li class="spd-right">: <?php echo $random_name[array_rand($random_name)]; ?>@gmail.com</li>
+      </ul>
+      <ul>
+        <li class="spd-left">Phone</li>
+        <li class="spd-right">: +62 000 0000 0000</li>
+      </ul>
+      <ul>
+        <li class="spd-left">Sex</li>
+        <li class="spd-right">: Male</li>
+      </ul>
+    </div>
+    <a class="profilepage-button btn" href="profile/edit.php">
+      <span>Edit Profile</span>
+      <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"></path></svg>
+    </a>
+  </section>
+  
+  
+  
   <section class="section-container section-package">
     <div class="section-title">Subscribe</div>
     <div class="package-list">
@@ -29,7 +56,7 @@
         <?php $package_origin='no'; $package_type='premium'; require ($_SERVER['STRIMID'].'module/package-list.php')?>
       <?php } ?>
     </div>
-    <a class="package-button btn" href="profile/subscribe.php">
+    <a class="profilepage-button btn" href="profile/subscribe.php">
       <span>More Subscribe</span>
       <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"></path></svg>
     </a>

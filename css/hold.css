@@ -46,6 +46,10 @@ footer{padding:var(--section-space-medium); margin-top:var(--section-space-mediu
 .vbl-label-live{background-color:#95005B;}
 .vbl-label-vod{background-color:#004A7B;}
 
+.store-box-link{border-radius:var(--rounded-normal); overflow:hidden; border-color:rgba(255,255,255,0.1);}
+.package-button, .profilepage-button{border-color:var(--color-link-primary);}
+.package-button:hover, .profilepage-button:hover{border-color:var(--color-link-tertiary);}
+
 .stories-thumb-circle, .stories-live:after{border-radius:50%; overflow:hidden;}
 .stories-box:hover .stories-thumb-icon{border-color:var(--color-link-secondary);}
 .stories-live:after{content:''; position:absolute; z-index:2; bottom:0; right:0; width:16px; height:16px; 
