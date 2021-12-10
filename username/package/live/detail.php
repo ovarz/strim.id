@@ -1,12 +1,13 @@
 <?php 
   $template='detail';
   $page='live streaming';
+  $filter='no'; 
   $search_page='search/'; 
   require ('../../../inc/base.php')
 ?>
 <?php require ($_SERVER['STRIMID'].'inc/datasample.php')?>
 <?php require ($_SERVER['STRIMID'].'inc/meta.php')?>
-<?php $back='yes'; $back_link='username/package/live/'; require ($_SERVER['STRIMID'].'inc/header.php')?>
+<?php $back='yes'; $back_link='username/package/vod/'; require ($_SERVER['STRIMID'].'inc/header.php')?>
 <?php require ($_SERVER['STRIMID'].'inc/menu.php')?>
 
 <div class="site-container detail-container">

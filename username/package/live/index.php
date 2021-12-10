@@ -1,6 +1,7 @@
 <?php 
   $template='profile-streamer';
   $page='package';
+  $filter='no'; 
   $search_page='search/'; 
   require ('../../../inc/base.php')
 ?>
@@ -17,13 +18,6 @@
   <section class="section-container section-package-info">
     <div class="spi-title">3Dbotmaker Diecast Racing</div>
     <div class="spi-desc"><?php echo $random_summary[array_rand($random_summary)]; ?></div>
-  </section>
-  
-  
-  
-  <section class="section-container section-tab">
-    <a class="tab-link tab-curr" href="username/package/live/">Live</a>
-    <a class="tab-link" href="username/package/vod/">VOD</a>
   </section>
   
   

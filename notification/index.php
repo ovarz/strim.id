@@ -1,6 +1,7 @@
 <?php 
   $template='notification';
   $page='notification';
+  $filter='no'; 
   $search_page='search/'; 
   require ('../inc/base.php')
 ?>

@@ -1,7 +1,4 @@
-<a class="package-box" 
-  <?php if($page != 'package') { ?>href="username/package/live/"<?php } ?>
-  <?php if($page == 'package') { ?>href="username/package/vod/"<?php } ?>
->
+<a class="package-box" href="username/package/vod/">
   <div class="vbl-thumb flex_ori thumb-loading">
     <img class="lazyload" data-original="img/sample/sample-<?php echo rand(1,20); ?>.jpg" />
     <?php if($package_type == 'free') { ?><div class="vbl-label vbl-label-free">Free</div><?php } ?>

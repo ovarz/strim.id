@@ -1,6 +1,7 @@
 <?php 
   $template='live';
   $page='live streaming';
+  $filter='yes'; 
   $search_page='search/'; 
   require ('../inc/base.php')
 ?>

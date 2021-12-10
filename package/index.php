@@ -1,6 +1,7 @@
 <?php 
   $template='package';
   $page='package';
+  $filter='no'; 
   $search_page='search/'; 
   require ('../inc/base.php')
 ?>

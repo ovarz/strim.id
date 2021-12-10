@@ -1,6 +1,7 @@
 <?php 
   $template='package-streamer';
   $page='package';
+  $filter='no'; 
   $search_page='search/'; 
   require ('../../inc/base.php')
 ?>

@@ -1,6 +1,7 @@
 <?php 
   $template='home';
   $page='home';
+  $filter='no'; 
   $search_page='search/'; 
   require ('inc/base.php')
 ?>

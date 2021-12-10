@@ -1,6 +1,7 @@
 <?php 
   $template='home';
   $page='home';
+  $filter='no'; 
   $search_page='search/'; 
   require ('inc/base.php')
 ?>
@@ -38,6 +39,9 @@
         <a class="pagelist-row" href="notification/">Halaman Notifikasi</a>
       </li>
       <li>
+        <a class="pagelist-row" href="news/">Halaman News</a>
+      </li>
+      <li>
         <a class="pagelist-row" href="package/">Halaman Semua Package</a>
       </li>
       <li>
@@ -60,8 +64,7 @@
           <li><a class="pagelist-row" href="username/">Halaman Detail Profil Streamer</a></li>
           <li><a class="pagelist-row" href="username/package/">Halaman Daftar Paket per Streamer</a></li>
           <li><a class="pagelist-row" href="username/package/empty.php">Halaman Daftar Paket Kosong</a></li>
-          <li><a class="pagelist-row" href="username/package/live/">Halaman Daftar Live Steraming per Streamer</a></li>
-          <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar VOD per Streamer</a></li>
+          <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar video per Streamer</a></li>
         </ul>
       </li>
       <li>

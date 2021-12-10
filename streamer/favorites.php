@@ -1,6 +1,7 @@
 <?php 
-  $template='streamer';
-  $page='streamer-follow';
+  $template='streamer-follow';
+  $page='streamer';
+  $filter='yes'; 
   $search_page='search/'; 
   require ('../inc/base.php')
 ?>
