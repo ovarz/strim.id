@@ -24,44 +24,41 @@
   
   
   <section class="section-container section-profile-data">
-    <div class="spd-list">
+    <div class="spd-list spd-fullwidth">
       <ul>
         <li class="spd-left">Email</li>
-        <li class="spd-right">: yourfullname@gmail.com</li>
+        <li class="spd-right"><input type="text" class="spd-field" placeholder="yourfullname@gmail.com"></li>
       </ul>
       <ul>
         <li class="spd-left">Phone</li>
-        <li class="spd-right">: +62 000 0000 0000</li>
+        <li class="spd-right"><input type="text" class="spd-field" placeholder="+62 000 0000 0000"></li>
       </ul>
       <ul>
         <li class="spd-left">Birthday</li>
-        <li class="spd-right">: Sunday, 00 January 0000</li>
+        <li class="spd-right" id="pilihtanggal"><input type="text" class="spd-field choosedate" placeholder="Sunday, 00 January 0000" autocomplete="off"></li>
       </ul>
       <ul>
         <li class="spd-left">Gender</li>
-        <li class="spd-right">: Male</li>
+        <li class="spd-right">
+          <select class="spd-field">
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </li>
+      </ul>
+      <ul>
+        <li class="spd-left">Password</li>
+        <li class="spd-right"><input type="password" class="spd-field" placeholder="ignore if there is no change"></li>
+      </ul>
+      <ul>
+        <li class="spd-left">Confirm Password</li>
+        <li class="spd-right"><input type="password" class="spd-field" placeholder="ignore if there is no change"></li>
       </ul>
     </div>
-    <a class="profilepage-button btn" href="profile/edit.php">
-      <span>Edit Profile</span>
-      <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"></path></svg>
-    </a>
-  </section>
-  
-  
-  
-  <section class="section-container section-package">
-    <div class="section-title">Subscribtions</div>
-    <div class="package-list">
-      <?php for ($i=1; $i <= 6; $i++) { ?>
-        <?php $package_origin='no'; $package_type='premium'; require ($_SERVER['STRIMID'].'module/package-list.php')?>
-      <?php } ?>
-    </div>
-    <a class="profilepage-button btn" href="profile/subscribe.php">
-      <span>More Subscribe</span>
-      <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"></path></svg>
-    </a>
+    <a class="submitedit-button btn" href="profile/">Submit</a>
   </section>
 </div>
 
+<link rel="stylesheet" type="text/css" href="css/calendar.css">
+<script defer src="js/calendar.js"></script>
 <?php require ($_SERVER['STRIMID'].'inc/footer.php')?>

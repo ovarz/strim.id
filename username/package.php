@@ -1,6 +1,6 @@
 <?php 
   $template='profile-streamer';
-  $page='streamer-detail';
+  $page='streamer-profile';
   $filter='yes'; 
   $search_page='search/'; 
   require ('../inc/base.php')
@@ -15,14 +15,17 @@
   
   
   
-  <?php $streamer_tab='store'; require ($_SERVER['STRIMID'].'module/streamer-tab.php')?>
+  <?php $streamer_tab='package'; require ($_SERVER['STRIMID'].'module/streamer-tab.php')?>
   
   
   
-  <section class="section-container section-store">
-    <div class="store-list">
-      <?php for ($i=1; $i <= 10; $i++) { ?>
-        <?php require ($_SERVER['STRIMID'].'module/store-list.php')?>
+  <section class="section-container section-package">
+    <div class="package-list">
+      <?php for ($i=1; $i <= 2; $i++) { ?>
+        <?php $package_origin='no'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
+      <?php } ?>
+      <?php for ($i=1; $i <= 8; $i++) { ?>
+        <?php $package_origin='no'; $package_type='free'; require ($_SERVER['STRIMID'].'module/package-list.php')?>
       <?php } ?>
     </div>
     <?php require ($_SERVER['STRIMID'].'module/now-loading.php')?>

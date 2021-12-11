@@ -5,11 +5,30 @@
   <div class="trailer-box-info">
     <div class="tbi-detail">
       <a class="tbi-title" href="news/">
-        <?php echo $random_name[array_rand($random_name)]; ?>
+        <?php if($page != 'package') { ?>
+          <?php echo $random_name[array_rand($random_name)]; ?>
+        <?php } ?>
+        <?php if($page == 'package') { ?>
+          <?php echo $random_package[array_rand($random_package)]; ?>
+        <?php } ?>
       </a>
       <a class="tbi-desc" href="news/">
         <?php echo $random_summary[array_rand($random_summary)]; ?>
       </a>
+      <?php if($page == 'package') { ?>
+      <div class="streamer-box">
+        <div class="streamer-thumb">
+          <div class="flex_ori thumb-loading">
+            <img class="lazyload" data-original="img/sample/profile-<?php echo rand(1,20); ?>.jpg" />
+          </div>
+        </div>
+        <div class="streamer-info">
+          <div>
+            <div class="streamer-link"><?php echo $random_name[array_rand($random_name)]; ?></div>
+          </div>
+        </div>
+      </div>
+      <?php } ?>
       <a class="tbi-button" href="username/package/vod/detail.php">
         <span>Watch Now</span>
         <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"/></svg>

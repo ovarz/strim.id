@@ -1,7 +1,7 @@
 <?php 
   $template='profile-streamer';
-  $page='streamer-detail';
-  $filter='no'; 
+  $page='streamer-profile';
+  $filter='yes'; 
   $search_page='search/'; 
   require ('../inc/base.php')
 ?>
@@ -15,22 +15,25 @@
   
   
   
-  <section class="section-container section-tab">
-    <a class="tab-link tab-curr" href="username/">Package</a>
-    <a class="tab-link" href="username/store.php">Store</a>
+  <?php $streamer_tab='profile'; require ($_SERVER['STRIMID'].'module/streamer-tab.php')?>
+  
+  
+  
+  <section class="section-container section-profile-page">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia neque sed augue dignissim elementum. Curabitur ut lorem justo. Morbi commodo orci in nisl gravida malesuada. Duis efficitur magna vitae finibus dignissim. Suspendisse consequat massa at pulvinar iaculis. Nulla ac massa sed risus pulvinar fermentum.</p>
+    <p>Nunc erat arcu, mattis et nibh at, condimentum consectetur massa. Vestibulum ut metus nec turpis aliquet facilisis.</p>
+    <p>In hac habitasse platea dictumst. Donec enim ligula, aliquet ac vehicula vel, lobortis et orci. Nam eleifend quam ante, in vulputate lacus rhoncus a. Sed vitae ornare felis, nec feugiat mi. Etiam mattis magna turpis, non aliquam purus sollicitudin at.</p>
   </section>
   
   
   
-  <section class="section-container section-package">
-    <div class="package-list">
-      <?php for ($i=1; $i <= 2; $i++) { ?>
-        <?php $package_origin='no'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
-      <?php } ?>
-      <?php for ($i=1; $i <= 8; $i++) { ?>
-        <?php $package_origin='no'; $package_type='free'; require ($_SERVER['STRIMID'].'module/package-list.php')?>
+  <section class="section-container section-trailer">
+    <div class="trailer-list">
+      <?php for ($i=1; $i <= 6; $i++) { ?>
+        <?php require ($_SERVER['STRIMID'].'module/trailer-list.php')?>
       <?php } ?>
     </div>
+    <?php require ($_SERVER['STRIMID'].'module/now-loading.php')?>
   </section>
 </div>
 
