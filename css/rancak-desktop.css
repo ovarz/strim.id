@@ -15,3 +15,13 @@ header menu{display:flex;}
 .detail-info, .detail-section-tab, .section-info-bottom{width:100%; max-width:1000px; margin-left:auto; margin-right:auto;}
 
 .spd-list, .section-profile-data{justify-content:center; text-align:center;}
+
+.site-container-package-slider .section-trailer{margin:0 0 var(--section-space-medium); border-radius:0 !important;}
+.site-container-package-slider .trailer-box{border-radius:0 !important;}
+.site-container-package-slider .trailer-box-thumb{max-height:60vh;}
+
+.sps-container{padding:0; bottom:auto;}
+.sps-container::-webkit-scrollbar{width:7px;}
+.sps-container::-webkit-scrollbar-track, .sps-container::-webkit-scrollbar-thumb{background:0;}
+.sps-container:hover::-webkit-scrollbar-thumb{background:hsl(var(--color-light) / 25%);}
+.sps-container::-webkit-scrollbar-thumb:hover{background:hsl(var(--color-light) / 35%);}
