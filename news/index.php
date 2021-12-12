@@ -11,8 +11,8 @@
 <?php require ($_SERVER['STRIMID'].'inc/menu.php')?>
 
 <div class="site-container">
-  <section class="section-container section-trailer-thumb flex_ori content_center">
-    <img class="lazyload" data-original="img/sample/portrait-<?php echo rand(1,10); ?>.jpg" />
+  <section class="section-container section-trailer-video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DlBUWswXnzo?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
   
   

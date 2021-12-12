@@ -124,6 +124,10 @@ display:grid; grid-template-columns:100px 1fr 90px;}
 .section-info-bottom .streamer-box{border-top:1px dashed; padding-top:var(--section-space-medium); margin-top:var(--section-space-medium);}
 .sib-desc{line-height:140%;}
 
+.section-trailer-video{position:relative; margin:0; max-height:480px;}
+.section-trailer-video:before{content:''; display:block; padding-top:133.33%;}
+.section-trailer-video iframe{width:100%; height:100%; position:absolute; top:0; left:0;}
+
 .detail-container{grid-template-rows:auto auto auto 1fr;}
 .detail-info{margin-bottom:0;}
 .detail-info-title{font-weight:600; font-size:18px; line-height:140%;}
