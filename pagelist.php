@@ -65,6 +65,7 @@
           <li><a class="pagelist-row" href="username/package/">Halaman Daftar Paket per Streamer</a></li>
           <li><a class="pagelist-row" href="username/package/empty.php">Halaman Daftar Paket Kosong</a></li>
           <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar video per Streamer</a></li>
+          <li><a class="pagelist-row" href="username/store.php">Halaman Daftar Barang Yang Dijual per Streamer</a></li>
         </ul>
       </li>
       <li>
@@ -74,6 +75,21 @@
           <li><a class="pagelist-row" href="username/package/live/chat.php">Halaman Chat Live Streaming</a></li>
           <li><a class="pagelist-row" href="username/package/vod/detail.php">Halaman Detail VOD</a></li>
           <li><a class="pagelist-row" href="username/package/vod/comment.php">Halaman Comment VOD</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="pagelist-row">Halaman Store</div>  
+        <ul>
+          <li><a class="pagelist-row" href="store/">Halaman Daftar Barang Yang Dijual</a></li>
+          <li><a class="pagelist-row" href="store/detail.php">Halaman Detail Barang Yang Dijual</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="pagelist-row">Halaman Profil User</div>  
+        <ul>
+          <li><a class="pagelist-row" href="profile/">Halaman Detail Profil User</a></li>
+          <li><a class="pagelist-row" href="profile/edit.php">Halaman Edit Profil User</a></li>
+          <li><a class="pagelist-row" href="profile/subscribe.php">Halaman Daftar Subscribe per User</a></li>
         </ul>
       </li>
     </ul>
