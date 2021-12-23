@@ -1,6 +1,9 @@
 <article class="trailer-box">
   <div class="trailer-box-thumb flex_ori thumb-loading">
     <img class="lazyload" data-original="img/sample/portrait-<?php echo rand(1,10); ?>.jpg" />
+    <?php if($page == 'package') { ?>
+      <video autoplay="" loop="" muted=""><source src="img/sample/trailer.mp4" type="video/mp4"></video>
+    <?php } ?>
   </div>
   <div class="trailer-box-info">
     <div class="tbi-detail">

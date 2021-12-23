@@ -56,7 +56,6 @@ footer{padding:var(--section-space-medium); margin-top:var(--section-space-mediu
 background-color:var(--color-link-tertiary); border:var(--section-space-tiny) solid var(--color-background);}
 
 .trailer-box-info{background:linear-gradient(to bottom, hsl(var(--color-bodysticky) / 0%) 0%, hsl(var(--color-bodysticky) / 100%) 100%);}
-.tbi-desc{color:color:var(--color-default);}
 .tbi-button{border-radius:var(--rounded-normal); margin-top:var(--section-space-small);}
 .tbi-button:hover{border-color:var(--color-link-secondary);}
 .tbi-icon .flex_ori{border-radius:50%; overflow:hidden; border-color:var(--color-link-primary);}
@@ -102,6 +101,8 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 .ssd-button-cart{background-color:var(--color-link-tertiary);}
 .ssd-button .btn:hover{background-color:#616161;}
 .ssd-totalitem-box{border-radius:4px; text-align:center;}
+input.ssd-totalitem-box{background-color:var(--color-link-primary);}
+button.ssd-totalitem-box{background-color:rgba(255,255,255,0.1); color:var(--color-link-primary);}
 
 .filter-popup{position:absolute; right:0; padding:var(--section-space-small); width:100%; min-width:320px;}
 .filter-box{border:1px solid rgba(255,255,255,0.15); background-color:hsl(var(--color-bodysticky) / 90%); padding:var(--section-space-medium); border-radius:var(--rounded-normal);
