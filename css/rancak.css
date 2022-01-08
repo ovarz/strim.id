@@ -108,8 +108,7 @@ display:grid; grid-template-columns:1fr var(--gateway-size); grid-gap:var(--sect
 .live-box-link:before{content:''; display:block; padding-top:56.25%;}
 .live-box-desc{line-height:140%;}
 
-.section-cover{margin:0; max-height:100px;}
-.section-cover:before{content:''; display:block; padding-top:50%;}
+.section-cover{margin:0; height:calc((100vw - 240px)/6.2 - 1px); min-height:128px;}
 .section-profile-streamer{position:relative; z-index:2; margin:calc((var(--section-space-medium) * -2) - var(--section-space-medium)) var(--section-space-medium) 0;
 display:grid; grid-template-columns:100px 1fr 90px;}
 .ssp-thumb{border:var(--section-space-small) solid;}
