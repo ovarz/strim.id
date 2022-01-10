@@ -1,7 +1,4 @@
 <section class="section-container section-info-bottom comment">
-  <div class="section-title">
-    <div class="section-label">Komentar</div>
-  </div>
   <?php require ($_SERVER['STRIMID'].'module/comment-form.php')?>
   <div class="comment-list">
     <div class="comment-row">

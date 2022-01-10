@@ -9,7 +9,7 @@
       <a aria-label="Link Title" title="Link Title" class="comment-name" href="../vivasso/profile.php" target="_blank">
         <?php echo $random_name[array_rand($random_name)]; ?>
       </a>
-      <div class="comment-date">00/00/0000</div>
+      <div class="comment-date">00 Jan 00</div>
       <div class="comment-detail"><?php echo $random_summary[array_rand($random_summary)]; ?></div>
       <a aria-label="Link Title" title="Link Title" class="comment-list-button comment-button-reply" href="javascript:void(0)">
         <div>Balas</div>
