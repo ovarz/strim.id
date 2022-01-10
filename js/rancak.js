@@ -7,11 +7,21 @@ var toggle_filter = function(){
   });	
 };
 
+var toggle_detail_page = function(){
+  "use strict";
+  $('.header-info-toggle').click(function(){
+	$(this).toggleClass('header-info-clicked');
+    $('.videopage').toggleClass('videopage-full');
+    return false;
+  });	
+};
+
 
 
 $(document).ready(function(){
   "use strict";
   toggle_filter();
+  toggle_detail_page();
 });
 
 

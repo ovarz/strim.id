@@ -8,7 +8,8 @@
   --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
 }
 
-a, .btn, .streamer-button .btn, .din-button{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; cursor:pointer;}
+a, .btn, .streamer-button .btn, .din-button, .vpn-button{
+transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; cursor:pointer;}
 a{color:var(--color-link-primary); fill:var(--color-link-primary);}
 a:hover{color:var(--color-link-secondary); fill:var(--color-link-secondary);}
 .btn, a.btn{border-radius:var(--rounded-normal); background-color:var(--color-link-secondary); color:var(--color-link-primary); fill:var(--color-link-primary);}
@@ -82,13 +83,6 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 .streamer-button .btn-followed{border-color:var(--color-link-secondary); background-color:transparent;}
 .streamer-button .btn-followed:hover{border-color:var(--color-link-tertiary);}
 
-.detail-info-title{color:var(--color-link-primary);}
-.detail-info-other{font-size:12px;}
-.detail-info-other > span{border-color:var(--color-default);}
-
-.din-button{border-color:rgba(255,255,255,0.25); background-color:hsl(var(--color-bodysticky) / 100%); fill:var(--color-link-primary); border-radius:var(--rounded-normal);}
-.din-button:hover{border-color:var(--color-link-tertiary); background-color:var(--color-link-tertiary);}
-
 .section-profile-name{color:var(--color-link-primary);}
 .spd-field{border-color:var(--color-default); border-radius:8px; color:var(--color-link-primary);}
 .spd-field::placeholder{color:var(--color-default);}
@@ -113,6 +107,19 @@ display:grid; grid-gap:var(--section-space-medium); grid-template-columns:1fr 1f
 .filter-list{display:grid; grid-gap:var(--section-space-small);}
 .filter-button{grid-column:1/3;}
 .header-filter-open{fill:var(--color-link-tertiary);}
+
+.header-info-clicked{fill:var(--color-link-tertiary);}
+
+.videopage-tab{background-color:var(--color-background);}
+.vpt-link{border-color:var(--color-link-primary);}
+.vpt-curr{color:var(--color-link-secondary); font-weight:600; border-bottom-color:var(--color-link-secondary);}
+.vpn-button{border-radius:8px; color:var(--color-link-primary); fill:var(--color-link-primary); 
+background-color:var(--color-link-secondary); border-color:var(--color-link-secondary);}
+.vpn-button:hover{background-color:var(--color-link-tertiary); border-color:var(--color-link-tertiary);}
+.vpn-button-clicked{background-color:transparent !important; font-weight:600;}
+.videopage-counter > li:not(:last-child){border-color:var(--color-default);}
+.videopage-title{color:var(--color-link-primary);}
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){

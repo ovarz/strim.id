@@ -9,10 +9,6 @@ header menu{display:flex;}
 .live-box{padding:var(--section-space-medium); border:1px solid;}
 .package-empty{min-height:calc(100vh - (2 * var(--body-padding)));}
 
-.section-player{margin:0; z-index:1; max-height:560px; background-color:#000; overflow:hidden;}
-
-.detail-info, .detail-section-tab, .section-info-bottom{width:100%; max-width:1000px; margin-left:auto; margin-right:auto;}
-
 .spd-list, .section-profile-data{justify-content:center; text-align:center;}
 
 .site-container-package-slider .section-trailer{margin:0 0 var(--section-space-medium); border-radius:0 !important;}

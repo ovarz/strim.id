@@ -26,7 +26,8 @@ a{font-weight:600;}
 .flex_ori img:not([src]){visibility:hidden;}
 .section-title{font-size:24px; margin-bottom:var(--section-space-small); font-weight:bold; text-transform:uppercase;}
 .sticky-button{height:var(--body-padding); stroke-linecap:round; stroke-linejoin:round; stroke-width:2px;}
-.sticky-button img, .sticky-button svg{height:24px;}
+.sticky-button img{height:24px;}
+.sticky-button svg{width:auto; height:18px;}
 .svgicon-back{transform:rotate(180deg);}
 
 header, header > div{display:flex;}
@@ -119,29 +120,9 @@ display:grid; grid-template-columns:100px 1fr 90px;}
 .ssp-name{font-weight:bold; color:#FFF;}
 .ssp-followers{font-size:12px;}
 
-.section-player{position:relative;}
-.section-player:before, .section-player-dummy:before{content:''; display:block; padding-top:56.25%;}
-.section-player > iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
-.section-info-bottom .streamer-box{border-top:1px dashed; padding-top:var(--section-space-medium); margin-top:var(--section-space-medium);}
-.sib-desc{line-height:140%;}
-
 .section-trailer-video{position:relative; margin:0; max-height:480px;}
 .section-trailer-video:before{content:''; display:block; padding-top:133.33%;}
 .section-trailer-video iframe{width:100%; height:100%; position:absolute; top:0; left:0;}
-
-.detail-container{grid-template-rows:auto auto auto 1fr;}
-.detail-info{margin-bottom:0;}
-.detail-info-title{font-weight:600; font-size:18px; line-height:140%;}
-.detail-info-other, .detail-info-other > span{margin-top:var(--section-space-tiny);}
-.detail-info-other > span{display:inline-block; border-right:1px solid;
-margin-right:var(--section-space-tiny); padding-right:var(--section-space-tiny);}
-.detail-info-other > span:last-child{border-right:0; margin-right:0; padding-right:0;}
-
-.detail-info-navigation, .detail-info-navigation > *{display:flex;}
-.detail-info-navigation{justify-content:space-between;}
-.detail-info-navigation > *{gap:var(--section-space-small);}
-.din-button{width:48px; height:48px; border:1px solid; margin-bottom:var(--section-space-medium);}
-.din-button svg{height:18px;}
 
 .spt-cricle{width:96px; height:96px; border-radius:50%;}
 .section-profile-name, .section-profile-status{line-height:140%; text-align:center;}
