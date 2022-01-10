@@ -3,8 +3,8 @@
   $page='package';
   $filter='no'; 
   $search_page='search/'; 
-  $content='live'; 
-  $videopage='info';
+  $content='vod'; 
+  $videopage='related';
   require ('../../../inc/base.php')
 ?>
 <?php require ($_SERVER['STRIMID'].'inc/datasample.php')?>
@@ -19,8 +19,12 @@
   <div class="videopage-detail">
     <?php require ($_SERVER['STRIMID'].'module/videopage-tab.php')?>
     <div class="videopage-content">
-      <?php require ($_SERVER['STRIMID'].'module/videopage-nav.php')?>
-      <?php require ($_SERVER['STRIMID'].'module/videopage-info.php')?>
+      <?php for ($i=1; $i <= 1; $i++) { ?>
+        <?php $video_type='live'; require ($_SERVER['STRIMID'].'module/video-list.php')?>
+      <?php } ?>
+      <?php for ($i=1; $i <= 9; $i++) { ?>
+        <?php $video_type='vod'; require ($_SERVER['STRIMID'].'module/video-list.php')?>
+      <?php } ?>
     </div>
   </div>
 </div>

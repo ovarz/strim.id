@@ -6,8 +6,9 @@
 .section-video-player:before{content:''; display:block; padding-top:56.25%;}
 .section-video-player iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
 
+.videopage-detail{--nav-height:48px;}
 .videopage-tab{display:flex; z-index:4;}
-.vpt-link{width:100%; height:48px; display:flex; justify-content:center; align-items:center; 
+.vpt-link{width:100%; height:var(--nav-height); display:flex; justify-content:center; align-items:center; 
 font-weight:normal; border-bottom:4px solid;}
 
 .videopage-nav, .vpn-button *{display:flex; align-content:center;}
@@ -22,6 +23,8 @@ font-weight:normal; border-bottom:4px solid;}
 .videopage-counter{display:flex; flex-wrap:wrap; gap:var(--section-space-small);}
 .videopage-counter > li:not(:last-child){padding-right:var(--section-space-small); border-right:1px solid;}
 .videopage-desc{line-height:150%; display:grid; grid-gap:var(--section-space-medium);}
+
+.videopage-chat{padding:0;}
 
 footer{margin-top:0 !important;}
 
@@ -55,4 +58,6 @@ footer{margin-top:0 !important;}
   .videopage-detail:hover::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.25);}
   .videopage-detail::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,0.35);}
   .videopage-tab{position:sticky; top:0;}
+  
+  .videopage-chat iframe{height:calc(100vh - var(--body-padding) - var(--nav-height)) !important;}
 }
