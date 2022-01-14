@@ -11,7 +11,7 @@ menu .sticky-button svg{height:18px;}
 menu .menu-label{font-size:10px; margin-top:var(--section-space-tiny);}
 
 .site-container{min-height:calc(100vh - var(--body-padding) - var(--body-padding) - var(--body-bottomspace));}
-.section-trailer{margin:var(--section-space-medium) 0;}
+.section-trailer{margin:0;}
 
 .dummy-iphonebar{position:fixed; z-index:calc(var(--max-zindex) - 3000); bottom:0; left:0; width:100%; height:var(--body-bottomspace); display:flex; justify-content:center; align-items:flex-start;
 background-color:hsl(var(--color-bodysticky) / 90%);}
