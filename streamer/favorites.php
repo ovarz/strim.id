@@ -18,11 +18,8 @@
 
   <section class="section-container section-streamer">
     <div class="streamer-list">
-      <?php $follow='no'; require ($_SERVER['STRIMID'].'module/streamer-list.php')?>
-      <?php $follow='yes'; require ($_SERVER['STRIMID'].'module/streamer-list.php')?>
-      <?php $follow='yes'; require ($_SERVER['STRIMID'].'module/streamer-list.php')?>
-      <?php for ($i=1; $i <= 9; $i++) { ?>
-        <?php $follow='no'; require ($_SERVER['STRIMID'].'module/streamer-list.php')?>
+      <?php for ($i=1; $i <= 12; $i++) { ?>
+        <?php $follow='yes'; require ($_SERVER['STRIMID'].'module/streamer-list.php')?>
       <?php } ?>
     </div>
     <?php require ($_SERVER['STRIMID'].'module/now-loading.php')?>
