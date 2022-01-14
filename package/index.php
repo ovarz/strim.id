@@ -20,7 +20,7 @@
   
   
   <section class="section-container section-package-slider">
-    <div class="section-title">Continue Watching</div>
+    <div class="section-title">My Package</div>
     <div class="sps-container">
       <?php $package_origin='yes'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
       <?php for ($i=1; $i <= 7; $i++) { ?>
@@ -32,7 +32,7 @@
   
   
   <section class="section-container section-package-slider">
-    <div class="section-title">Trending Now</div>
+    <div class="section-title">All Package</div>
     <div class="sps-container">
       <?php $package_origin='yes'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
       <?php for ($i=1; $i <= 7; $i++) { ?>
