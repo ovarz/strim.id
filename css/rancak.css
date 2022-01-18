@@ -68,6 +68,9 @@ display:grid; grid-template-rows:auto auto 1fr auto; grid-gap:var(--section-spac
 .sbl-price{line-height:140%;}
 .sbl-button{display:flex; align-items:flex-end;}
 .sbl-button .btn{width:100%;}
+.store-box-link .streamer-box{grid-template-columns:24px 1fr; padding-bottom:0; border-bottom:0; margin-top:var(--section-space-small);}
+.store-box-link .streamer-link{display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden; font-weight:normal;}
+
 
 .section-stories{margin-bottom:var(--section-space-small);}
 .stories-list, .stories-list-container{height:86px;}

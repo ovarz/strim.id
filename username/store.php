@@ -22,7 +22,7 @@
   <section class="section-container section-store">
     <div class="store-list">
       <?php for ($i=1; $i <= 10; $i++) { ?>
-        <?php require ($_SERVER['STRIMID'].'module/store-list.php')?>
+        <?php $store_source='no'; require ($_SERVER['STRIMID'].'module/store-list.php')?>
       <?php } ?>
     </div>
     <?php require ($_SERVER['STRIMID'].'module/now-loading.php')?>

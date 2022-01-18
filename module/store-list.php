@@ -12,4 +12,7 @@
     <div class="sbl-button">
       <div class="btn">Detail</div>
     </div>
+    <?php if($store_source == 'yes') { ?>
+      <?php require ($_SERVER['STRIMID'].'module/streamer-box.php')?>
+    <?php } ?>
   </a>

@@ -20,7 +20,9 @@
       <div class="ssd-stock">Stock : 999++</div>
       <div class="ssd-price">Rp 0.000.000,-</div>
       <div class="ssd-desc"><?php echo $random_summary[array_rand($random_summary)]; ?></div>
-      <?php require ($_SERVER['STRIMID'].'module/streamer-box.php')?>
+      <a class="ssd-origin" href="username/store.php">
+        <?php require ($_SERVER['STRIMID'].'module/streamer-box.php')?>
+      </a>
     </div>
     <div class="ssd-action">
       <div class="ssd-totalitem">
@@ -41,7 +43,7 @@
     <div class="section-title">More items for you</div>
     <div class="store-list">
       <?php for ($i=1; $i <= 7; $i++) { ?>
-        <?php require ($_SERVER['STRIMID'].'module/store-list.php')?>
+        <?php $store_source='yes'; require ($_SERVER['STRIMID'].'module/store-list.php')?>
       <?php } ?>
     </div>
     <?php require ($_SERVER['STRIMID'].'module/now-loading.php')?>

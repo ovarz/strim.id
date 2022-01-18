@@ -1,7 +1,7 @@
 .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
 
 menu{display:none;}
-header menu{display:flex;}
+header menu{display:flex; background-color:transparent;}
 
 .package-button, .profilepage-button{display:inline-flex;}
 
