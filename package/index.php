@@ -20,10 +20,23 @@
   
   
   <section class="section-container section-package-slider">
+    <div class="section-title">Trending</div>
+    <div class="sps-container">
+      <?php for ($i=1; $i <= 3; $i++) { ?>
+        <?php $package_origin='yes'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
+      <?php } ?>
+      <?php for ($i=1; $i <= 5; $i++) { ?>
+        <?php $package_origin='yes'; $package_type='free';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
+      <?php } ?>
+    </div>
+  </section>
+  
+  
+  
+  <section class="section-container section-package-slider">
     <div class="section-title">My Package</div>
     <div class="sps-container">
-      <?php $package_origin='yes'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
-      <?php for ($i=1; $i <= 7; $i++) { ?>
+      <?php for ($i=1; $i <= 8; $i++) { ?>
         <?php $package_origin='yes'; $package_type='free';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
       <?php } ?>
     </div>
@@ -34,8 +47,10 @@
   <section class="section-container section-package-slider">
     <div class="section-title">Recomended</div>
     <div class="sps-container">
-      <?php $package_origin='yes'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
-      <?php for ($i=1; $i <= 7; $i++) { ?>
+      <?php for ($i=1; $i <= 3; $i++) { ?>
+        <?php $package_origin='yes'; $package_type='premium';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
+      <?php } ?>
+      <?php for ($i=1; $i <= 5; $i++) { ?>
         <?php $package_origin='yes'; $package_type='free';  require ($_SERVER['STRIMID'].'module/package-list.php')?>
       <?php } ?>
     </div>

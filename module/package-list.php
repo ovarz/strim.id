@@ -1,7 +1,7 @@
 <a class="package-box" href="username/package/vod/">
   <div class="vbl-thumb flex_ori thumb-loading">
     <img class="lazyload" data-original="img/sample/sample-<?php echo rand(1,20); ?>.jpg" />
-    <?php if($package_type == 'free') { ?><div class="vbl-label vbl-label-free">Free</div><?php } ?>
+    <!--<?php if($package_type == 'free') { ?><div class="vbl-label vbl-label-free">Free</div><?php } ?>-->
     <?php if($package_type == 'premium') { ?><div class="vbl-label vbl-label-premium">IDR 00.000</div><?php } ?>
   </div>
   <div class="package-info">
