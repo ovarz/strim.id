@@ -11,7 +11,7 @@
 <?php require ($_SERVER['STRIMID'].'inc/menu.php')?>
 
 <div class="site-container">
-  <?php $follow='yes'; require ($_SERVER['STRIMID'].'module/profile-streamer.php')?>
+  <?php $show_follow='no'; $show_price='no'; $follow='yes'; require ($_SERVER['STRIMID'].'module/profile-streamer.php')?>
   
   
   

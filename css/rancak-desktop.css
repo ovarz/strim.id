@@ -20,3 +20,6 @@ header menu{display:flex; background-color:transparent;}
 .sps-container::-webkit-scrollbar-track, .sps-container::-webkit-scrollbar-thumb{background:0;}
 .sps-container:hover::-webkit-scrollbar-thumb{background:hsl(var(--color-light) / 25%);}
 .sps-container::-webkit-scrollbar-thumb:hover{background:hsl(var(--color-light) / 35%);}
+
+.ssp-premium{grid-template-columns:100px 1fr 160px;}
+.ssp-premium .ssp-button{grid-column:3/4; margin-top:0;}
