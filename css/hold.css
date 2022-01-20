@@ -64,6 +64,8 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 .vbl-label-subscriber{background-color:var(--color-link-tertiary);}
 
 .ssp-thumb{border-color:var(--color-background); border-radius:50%; overflow:hidden;}
+.ssp-premium .streamer-button .btn{background-color:var(--color-link-tertiary);}
+.ssp-premium .streamer-button .btn:hover{background-color:#99006b;}
 
 .package-box{border-radius:var(--rounded-normal); overflow:hidden;}
 .package-info .streamer-link{color:var(--color-default) !important;}
@@ -120,9 +122,37 @@ background-color:var(--color-link-secondary); border-color:var(--color-link-seco
 .videopage-counter > li:not(:last-child){border-color:var(--color-default);}
 .videopage-title{color:var(--color-link-primary);}
 
+.popup-package, .popup-package-overlay{left:0; bottom:0; width:100%; height:100vh;}
+.popup-package{position:fixed; z-index:calc(var(--max-zindex) - 4000); display:flex;}
+.popup-package-overlay{position:absolute; z-index:1; background-color:rgba(0,0,0,0.5);}
+.popup-package-box{position:relative; z-index:2; padding:var(--section-space-medium); width:100%; background-color:var(--color-background);
+display:grid; grid-template-columns:96px 1fr; grid-gap:var(--section-space-medium);}
+.ppb-thumb-square{border-radius:var(--rounded-normal); overflow:hidden;}
+.ppb-thumb-square:before{content:''; display:block; padding-top:100%;}
+.ppb-info{display:grid; grid-gap:var(--section-space-tiny); font-size:12px;}
+.ppb-title, .ppb-desc{color:var(--color-link-primary); display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden; line-height:140%;}
+.ppb-title{-webkit-line-clamp:2; font-weight:bold; font-size:16px; text-transform:capitalize;}
+.ppb-misc{display:flex; flex-wrap:wrap;}
+.ppb-misc > span{display:block; position:relative; padding-right:var(--section-space-small); margin-right:var(--section-space-small);}
+.ppb-misc > span:after{content:'.'; position:absolute; right:-2px; top:-5px; font-weight:600; font-size:16px;}
+.ppb-desc{-webkit-line-clamp:4;}
+.ppb-nav, .ppb-contentlist{grid-column:1/3;}
+.ppb-nav{display:flex; gap:var(--section-space-small);}
+.ppb-nav-button{width:100%; display:flex; align-items:center; justify-content:center;}
+.ppb-trailer-button{background-color:transparent !important; border:3px solid;}
+.ppb-trailer-button:hover{border-color:var(--color-link-tertiary);}
+.ppb-premium-button{background-color:var(--color-link-tertiary) !important;}
+.ppb-premium-button:hover{background-color:#99006b !important;}
+.ppb-contentlist{display:flex; justify-content:space-between;}
+.ppb-contentlist > *{display:flex; align-items:center; height:30px;}
+.ppb-contentlist .svgicon-doubleright{height:22px; width:auto;}
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
+  .popup-package{align-items:flex-end;}
+  .popup-package-box{bottom:calc(var(--body-padding) + var(--body-bottomspace)); border-top:1px solid rgba(255,255,255,0.1);}
+  
   footer{padding-bottom:calc(var(--section-space-medium) + var(--body-padding) + var(--body-bottomspace));}
 }
 
@@ -131,11 +161,15 @@ background-color:var(--color-link-secondary); border-color:var(--color-link-seco
   .live-box{border-color:rgba(255,255,255,0.1); border-radius:var(--rounded-normal); overflow:hidden;}
   
   .filter-container{position:relative;}
+  
+  .popup-package{align-items:center; justify-content:center;}
+  .popup-package-box{max-width:640px; border:1px solid rgba(255,255,255,0.1); border-radius:var(--rounded-normal); overflow:hidden;}
 }
 
 @supports(-webkit-backdrop-filter:none) or (backdrop-filter:none){
   header, .dummy-iphonebar{-webkit-backdrop-filter:blur(24px); backdrop-filter:blur(24px); background-color:hsl(var(--color-bodysticky) / 70%);}
   .trailer-box-info > * > *{-webkit-backdrop-filter:blur(1px); backdrop-filter:blur(1px);}
+  .popup-package-overlay{background-color:rgba(0,0,0,0.25); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);}
   
   @media screen and (min-width:0px) and (max-width:1023px){
     menu{-webkit-backdrop-filter:blur(24px); backdrop-filter:blur(24px); background-color:hsl(var(--color-bodysticky) / 70%);}

@@ -1,7 +1,7 @@
 <a class="package-box" 
-  <?php if($package_type == 'free') { ?>href="username/package/vod/"<?php } ?>
-  <?php if($package_type == 'premium') { ?>href="username/package/vod/premium.php"<?php } ?>
->
+  <?php if($package_type == 'free') { ?>title="free"<?php } ?>
+  <?php if($package_type == 'premium') { ?>title="premium"<?php } ?>
+href="javascript:void(0)">
   <div class="vbl-thumb flex_ori thumb-loading">
     <img class="lazyload" data-original="img/sample/sample-<?php echo rand(1,20); ?>.jpg" />
     <!--<?php if($package_type == 'free') { ?><div class="vbl-label vbl-label-free">Free</div><?php } ?>-->

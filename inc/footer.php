@@ -1,3 +1,8 @@
+<?php $popup_package='premium'; require ($_SERVER['STRIMID'].'module/popup-package.php')?>
+<?php $popup_package='free'; require ($_SERVER['STRIMID'].'module/popup-package.php')?>
+
+
+
 <footer class="footer-all content_center">
   strim.id &copy;2021 | All Right Reserved
 </footer>

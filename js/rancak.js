@@ -16,12 +16,27 @@ var toggle_detail_page = function(){
   });	
 };
 
+var popup_package = function(){
+  "use strict";
+  $('.package-box').click(function(){
+    var get_id = $(this).attr('title');
+    $('#popup-package-' + get_id).fadeIn('fast');
+    return false;
+  });
+  
+  $('.popup-package-overlay').click(function(){
+    $('.popup-package').fadeOut('fast');
+    return false;
+  });	
+};
+
 
 
 $(document).ready(function(){
   "use strict";
   toggle_filter();
   toggle_detail_page();
+  popup_package();
 });
 
 
