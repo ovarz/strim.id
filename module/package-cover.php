@@ -14,7 +14,10 @@
       <span>Comedy</span>
       <span>Anime</span>
     </div>
-    <div class="ppb-view">000K Views</div>
+    <div class="ppb-misc" style="margin-top:var(--section-space-tiny);">
+      <span>by <a href="username/"><?php echo $random_name[array_rand($random_name)]; ?></a></span>
+      <span>000K Views</span>
+    </div>
   </div>
 </section>
 
