@@ -27,14 +27,14 @@
     <div class="spd-list spd-fullwidth">
       <ul>
         <li class="spd-left">Email</li>
-        <li class="spd-right"><input type="text" class="spd-field" placeholder="yourfullname@gmail.com"></li>
+        <li class="spd-right"><div class="spd-field">yourfullname@gmail.com</div>
       </ul>
       <ul>
         <li class="spd-left">Phone</li>
         <li class="spd-right"><input type="text" class="spd-field" placeholder="+62 000 0000 0000"></li>
       </ul>
       <ul>
-        <li class="spd-left">Birthday</li>
+        <li class="spd-left">Date of Birth</li>
         <li class="spd-right" id="pilihtanggal"><input type="text" class="spd-field choosedate" placeholder="Sunday, 00 January 0000" autocomplete="off"></li>
       </ul>
       <ul>
@@ -46,6 +46,7 @@
           </select>
         </li>
       </ul>
+      <!--
       <ul>
         <li class="spd-left">Password</li>
         <li class="spd-right"><input type="password" class="spd-field" placeholder="ignore if there is no change"></li>
@@ -54,6 +55,7 @@
         <li class="spd-left">Confirm Password</li>
         <li class="spd-right"><input type="password" class="spd-field" placeholder="ignore if there is no change"></li>
       </ul>
+      -->
     </div>
     <a class="submitedit-button btn" href="profile/">Submit</a>
   </section>

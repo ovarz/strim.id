@@ -158,7 +158,7 @@ height:48px; justify-content:center; margin-top:var(--section-space-medium); bac
 .section-trailer-thumb:before{content:''; display:block; padding-top:133.33%;}
 
 .spd-list{display:grid; grid-gap:var(--section-space-medium);}
-.spd-list > ul{display:grid; grid-gap:var(--section-space-small); grid-template-columns:70px 1fr;}
+.spd-list > ul{display:grid; grid-gap:var(--section-space-small); grid-template-columns:98px 1fr;}
 .spd-fullwidth > ul{grid-template-columns:1fr;}
 .spd-field{background-color:transparent; border:1px solid; padding:var(--section-space-medium); width:100%;}
 .spd-field option{color:#212121;}

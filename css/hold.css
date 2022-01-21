@@ -88,6 +88,7 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 
 .section-profile-name{color:var(--color-link-primary);}
 .spd-field{border-color:var(--color-default); border-radius:8px; color:var(--color-link-primary);}
+div.spd-field{background-color:rgba(255,255,255,0.15); border-color:rgba(255,255,255,0);}
 .spd-field::placeholder{color:var(--color-default);}
 
 .sps-container .package-box{background-color:#000;}
@@ -147,6 +148,8 @@ display:grid; grid-template-columns:96px 1fr; grid-gap:var(--section-space-mediu
 .ppb-contentlist{display:flex; justify-content:space-between;}
 .ppb-contentlist > *{display:flex; align-items:center; height:30px;}
 .ppb-contentlist .svgicon-doubleright{height:22px; width:auto;}
+
+.tnc{margin-top:var(--section-space-small);}
 
 
 

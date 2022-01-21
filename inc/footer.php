@@ -4,7 +4,12 @@
 
 
 <footer class="footer-all content_center">
-  strim.id &copy;2021 | All Right Reserved
+  <span>
+    strim.id &copy;2021 | All Right Reserved
+    <div class="tnc content_center">
+      <a class="tnc-link" href="tnc.php">Term & Condition &raquo;</a>
+    </div>
+  </span>
 </footer>
 
 
