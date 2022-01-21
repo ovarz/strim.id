@@ -18,7 +18,7 @@ var toggle_detail_page = function(){
 
 var popup_package = function(){
   "use strict";
-  $('.package-box').click(function(){
+  $('.package-popup').click(function(){
     var get_id = $(this).attr('title');
     $('#popup-package-' + get_id).fadeIn('fast');
     return false;

@@ -24,10 +24,10 @@
   
   
   <section class="section-container section-package">
-    <div class="section-title">Subscribtions</div>
+    <div class="section-title">Subscriptions</div>
     <div class="package-list">
       <?php for ($i=1; $i <= 24; $i++) { ?>
-        <?php $package_origin='no'; $package_type='premium'; require ($_SERVER['STRIMID'].'module/package-list.php')?>
+        <?php $package_origin='no'; $package_type='premium-bought'; require ($_SERVER['STRIMID'].'module/package-list.php')?>
       <?php } ?>
     </div>
   </section>

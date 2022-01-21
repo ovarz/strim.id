@@ -64,7 +64,9 @@
           <li><a class="pagelist-row" href="username/">Halaman Detail Profil Streamer</a></li>
           <li><a class="pagelist-row" href="username/package/">Halaman Daftar Paket per Streamer</a></li>
           <li><a class="pagelist-row" href="username/package/empty.php">Halaman Daftar Paket Kosong</a></li>
-          <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar video per Streamer</a></li>
+          <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar video dari Free Package</a></li>
+          <li><a class="pagelist-row" href="username/package/vod/premium.php">Halaman Daftar video dari Premium Package</a></li>
+          <li><a class="pagelist-row" href="username/package/vod/premium-bought.php">Halaman Daftar video dari Premium Package (Sudah Subscribe)</a></li>
           <li><a class="pagelist-row" href="username/store.php">Halaman Daftar Barang Yang Dijual per Streamer</a></li>
         </ul>
       </li>

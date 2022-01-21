@@ -66,6 +66,7 @@ background-color:var(--color-link-tertiary); border:var(--section-space-tiny) so
 .ssp-thumb{border-color:var(--color-background); border-radius:50%; overflow:hidden;}
 .ssp-premium .streamer-button .btn{background-color:var(--color-link-tertiary);}
 .ssp-premium .streamer-button .btn:hover{background-color:#99006b;}
+.ssp-expired{background-color:rgba(255,255,255,0.15); border-radius:var(--rounded-normal); color:var(--color-link-primary);}
 
 .package-box{border-radius:var(--rounded-normal); overflow:hidden;}
 .package-info .streamer-link{color:var(--color-default) !important;}

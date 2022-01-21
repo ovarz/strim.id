@@ -2,7 +2,7 @@
     <img class="lazyload" data-original="img/sample/sample-<?php echo rand(1,20); ?>.jpg" />
   </section>
   
-  <section class="section-container section-profile-streamer <?php if($show_price == 'yes') { ?>ssp-premium<?php } ?>">
+  <section class="section-container section-profile-streamer <?php if($show_price == 'yes' || $show_price == 'bought') { ?>ssp-premium<?php } ?>">
     <div class="ssp-thumb">
       <div class="flex_ori thumb-loading">
         <img class="lazyload" data-original="img/sample/profile-<?php echo rand(1,20); ?>.jpg" />
@@ -24,6 +24,11 @@
       <a class="btn" href="javascript:void(0)">
         IDR 0.000.000
       </a>
+    </div>
+    <?php } ?>
+    <?php if($show_price == 'bought') { ?>
+    <div class="ssp-button ssp-expired">
+      Expired in 00 days
     </div>
     <?php } ?>
   </section>
