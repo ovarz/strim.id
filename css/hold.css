@@ -150,7 +150,14 @@ display:grid; grid-template-columns:96px 1fr; grid-gap:var(--section-space-mediu
 .ppb-contentlist > *{display:flex; align-items:center; height:30px;}
 .ppb-contentlist .svgicon-doubleright{height:22px; width:auto;}
 
-.tnc{margin-top:var(--section-space-small);}
+.section-package-cover, .section-package-cover > *{background-color:#000;}
+div.spa-button{background-color:rgba(255,255,255,0.15) !important;}
+a.spa-button{background-color:var(--color-link-tertiary);}
+a.spa-button:hover{opacity:0.5;}
+
+.footer-list{margin-top:var(--section-space-small); display:flex; gap:var(--section-space-medium);}
+.footer-link{color:var(--color-link-secondary);}
+.footer-link:hover{opacity:0.5;}
 
 
 

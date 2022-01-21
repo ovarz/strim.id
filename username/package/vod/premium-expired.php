@@ -11,7 +11,7 @@
 <?php require ($_SERVER['STRIMID'].'inc/menu.php')?>
 
 <div class="site-container">
-  <?php $package_cover='premium-bought'; require ($_SERVER['STRIMID'].'module/package-cover.php')?>
+  <?php $package_cover='premium-expired'; require ($_SERVER['STRIMID'].'module/package-cover.php')?>
   
   
   

@@ -6,8 +6,9 @@
 <footer class="footer-all content_center">
   <span>
     strim.id &copy;2021 | All Right Reserved
-    <div class="tnc content_center">
-      <a class="tnc-link" href="tnc.php">Term & Condition &raquo;</a>
+    <div class="footer-list content_center">
+      <a class="footer-link" href="tnc.php">Term & Condition</a>
+      <a class="footer-link" href="privacy.php">Privacy Policy</a>
     </div>
   </span>
 </footer>

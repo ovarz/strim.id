@@ -1,6 +1,6 @@
 <?php 
   $template='tnc';
-  $page='Term & Condition';
+  $page='Privacy Policy';
   $filter='no'; 
   $search_page='search/'; 
   require ('inc/base.php')

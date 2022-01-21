@@ -14,8 +14,10 @@
   <section class="section-container section-notification">
     <div class="streamer-list">
       <?php for ($i=1; $i <= 3; $i++) { ?>
+        <?php $notification='expiry'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>
         <?php $notification='newcontent'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>
         <?php $notification='reply'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>
+        <?php $notification='expired'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>
         <?php $notification='newstreamer'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>
         <?php $notification='mention'; require ($_SERVER['STRIMID'].'module/notification-list.php')?>
       <?php } ?>
