@@ -22,13 +22,13 @@
 <?php if($package_cover != 'free') { ?>
 <section class="section-container section-package-action">
   <?php if($package_cover == 'premium') { ?>
-  <a class="spa-button btn" href="home.php">
+  <a class="spa-button btn" href="javascript:void(0)">
     IDR 0.000.000
   </a>
   <?php } ?>
   
   <?php if($package_cover == 'premium-bought') { ?>
-  <div class="spa-button btn" href="javascript:void(0)">
+  <div class="spa-button btn">
     Expiry in 00 days
   </div>
   <?php } ?>
