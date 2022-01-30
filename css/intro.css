@@ -7,3 +7,4 @@ footer{display:none !important; visibility:hidden; content-visibility:hidden;}
 .intro-button{display:flex; column-gap:var(--section-space-small); padding:0 var(--section-space-medium);
 border:2px solid var(--color-link-primary); border-radius:var(--rounded-normal);}
 .intro-button:hover{border:2px solid var(--color-link-tertiary); background-color:var(--color-link-tertiary); color:var(--color-link-primary); fill:var(--color-link-primary);}
+.intro-logout{text-align:center; margin-bottom:var(--section-space-medium);}

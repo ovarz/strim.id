@@ -46,7 +46,7 @@
       <span>Edit Profile</span>
       <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"></path></svg>
     </a>
-    <a class="profilepage-button btn" href="login.php">
+    <a class="profilepage-button btn" href="logout.php">
       <span>Logout</span>
       <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"></path></svg>
     </a>
