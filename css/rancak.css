@@ -28,6 +28,7 @@ a{font-weight:600;}
 .sticky-button{height:var(--body-padding); stroke-linecap:round; stroke-linejoin:round; stroke-width:2px;}
 .sticky-button img{height:24px;}
 .sticky-button svg{width:auto; height:18px;}
+.sticky-button .svgicon-menu{height:22px;}
 .svgicon-back{transform:rotate(180deg);}
 
 header, header > div{display:flex;}

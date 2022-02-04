@@ -111,6 +111,14 @@
     <a class="sticky-button header-notification <?php if($page == 'notification') { ?>sticky-curr<?php } ?> content_center" href="notification/">
       <svg class="svgicon svgicon-notification" width="18" height="22" viewBox="0 0 18 22"><path d="M9.72,4H8.26A6.23,6.23,0,0,0,2,10v3.79A3.88,3.88,0,0,1,1.45,16l-.28.44A1,1,0,0,0,2,18H16a1,1,0,0,0,.81-1.55L16.55,16A4,4,0,0,1,16,13.79V10a6.29,6.29,0,0,0-6.3-6Z" transform="translate(0)"/><path d="M12,18a3,3,0,0,1-6,0" transform="translate(0)"/><path d="M9,1a2,2,0,0,1,2,2V4H7V3A2,2,0,0,1,9,1Z" transform="translate(0)"/></svg>
     </a>
+    <?php if($template == 'store') { ?>
+    <a class="sticky-button header-cart content_center" href="store/cart.php">
+      <svg class="svgicon svgicon-store" width="18" height="18" viewBox="0 0 18 18"><path d="M6,16a2,2,0,1,0,2,2A2,2,0,0,0,6,16Zm10,0a2,2,0,1,0,2,2A2,2,0,0,0,16,16Zm-1.45-5a2,2,0,0,0,1.75-1l3.58-6.49A1.06,1.06,0,0,0,20,3a1,1,0,0,0-.51-.85A1.05,1.05,0,0,0,19,2H4.21L3.27,0H0V2H2L5.6,9.59,4.25,12A2,2,0,0,0,6,15H18V13H6l1.1-2ZM5.16,4H17.31L14.55,9h-7Z"></path></svg>
+    </a>
+    <a class="sticky-button header-storemenu content_center" href="javascript:void(0)">
+      <svg class="svgicon svgicon-menu" width="14" height="16" viewBox="0 0 448 512"><path d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg>
+    </a>
+    <?php } ?>
     <?php if($template == 'detail') { ?>
     <a class="sticky-button header-info-toggle content_center desktop-only" href="javascript:void(0)">
       <svg class="svgicon svgicon-menu" width="14" height="16" viewBox="0 0 448 512"><path d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg>
