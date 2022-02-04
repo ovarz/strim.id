@@ -40,6 +40,18 @@
   
   
   <section class="section-container section-store">
+    <div class="section-title">More product</div>
+    <div class="store-list">
+      <?php for ($i=1; $i <= 7; $i++) { ?>
+        <?php $store_source='no'; require ($_SERVER['STRIMID'].'module/store-list.php')?>
+      <?php } ?>
+    </div>
+    <?php require ($_SERVER['STRIMID'].'module/now-loading.php')?>
+  </section>
+  
+  
+  
+  <section class="section-container section-store">
     <div class="section-title">More items for you</div>
     <div class="store-list">
       <?php for ($i=1; $i <= 7; $i++) { ?>
