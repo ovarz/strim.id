@@ -6,7 +6,7 @@
 <footer class="footer-all content_center">
   <span>
     strim.id &copy;2021 | All Right Reserved
-    <?php if($template == 'profile') { ?>
+    <?php if($template == 'profile' || $template == 'tnc') { ?>
     <div class="footer-list content_center">
       <a class="footer-link" href="tnc.php">Term & Condition</a>
       <a class="footer-link" href="privacy.php">Privacy Policy</a>
