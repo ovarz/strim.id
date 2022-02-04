@@ -46,7 +46,6 @@
         <?php $store_source='no'; require ($_SERVER['STRIMID'].'module/store-list.php')?>
       <?php } ?>
     </div>
-    <?php require ($_SERVER['STRIMID'].'module/now-loading.php')?>
   </section>
   
   
