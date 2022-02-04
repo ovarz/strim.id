@@ -7,7 +7,7 @@
 ?>
 <?php require ($_SERVER['STRIMID'].'inc/datasample.php')?>
 <?php require ($_SERVER['STRIMID'].'inc/meta.php')?>
-<?php $back='yes'; $back_link='home.php'; require ($_SERVER['STRIMID'].'inc/header.php')?>
+<?php $back='yes'; $back_link='username/store.php'; require ($_SERVER['STRIMID'].'inc/header.php')?>
 <?php require ($_SERVER['STRIMID'].'inc/menu.php')?>
 
 <div class="site-container">
