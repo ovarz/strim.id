@@ -17,7 +17,6 @@
   </div>
   <a aria-label="Link Title" title="Link Title" class="comment-loadmore" href="javascript:void(0)">
     <div>Muat Lainnya</div>
-    <svg class="svgicon svgicon-more" width="12" height="12" viewBox="0 0 10 10"><path d="M8.45,9,9.5,10l5-5-5-5L8.45,1.05l3.2,3.2H4.5v1.5h7.15Z" transform="translate(-4.5 0)"></path></svg>
   </a>
 </section>
 
