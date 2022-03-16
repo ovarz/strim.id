@@ -3,6 +3,19 @@ var toggle_filter = function(){
   $('.header-filter').click(function(){
 	$(this).toggleClass('header-filter-open');
     $('.filter-popup').slideToggle('fast');
+	$('.header-addcontent').removeClass('header-addcontent-open');
+    $('.addcontent-popup').slideUp('fast');
+    return false;
+  });	
+};
+
+var toggle_addcontent = function(){
+  "use strict";
+  $('.header-addcontent').click(function(){
+	$(this).toggleClass('header-addcontent-open');
+    $('.addcontent-popup').slideToggle('fast');
+	$('.header-filter').removeClass('header-filter-open');
+    $('.filter-popup').slideUp('fast');
     return false;
   });	
 };
@@ -35,6 +48,7 @@ var popup_package = function(){
 $(document).ready(function(){
   "use strict";
   toggle_filter();
+  toggle_addcontent();
   toggle_detail_page();
   popup_package();
 });
