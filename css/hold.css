@@ -161,11 +161,11 @@ a.spa-button:hover{opacity:0.5;}
 
 .addcontent-popup{position:absolute; right:0; padding:0 var(--section-space-small); width:100%; width:240px; padding:8px;}
 .addcontent-box{--icon-size:56px; border:1px solid rgba(255,255,255,0.15); background-color:hsl(var(--color-bodysticky) / 90%); 
-border-radius:var(--rounded-normal); display:grid; grid-gap:var(--section-space-medium); grid-template-columns:1fr;}
+border-radius:var(--rounded-normal); display:grid; grid-template-columns:1fr;}
 .addcontent-box > *:not(:first-child){border-top:1px solid rgba(255,255,255,0.15);}
 .addcontent-link{display:grid; grid-template-columns:var(--icon-size) 1fr;}
 .addcontent-link > *{height:var(--icon-size);}
-.addcontent-link-label{justify-content:flex-start;}
+.addcontent-link-label{justify-content:flex-start; text-transform:capitalize;}
 
 
 @media screen and (min-width:0px) and (max-width:1023px){

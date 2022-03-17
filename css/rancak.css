@@ -222,3 +222,7 @@ height:48px; justify-content:center; margin-top:var(--section-space-medium); bac
 display:flex; align-items:center; justify-content:center;}
 .streamer-button .btn-followed{border:2px solid;}
 .streamer-subscriber{font-size:12px;}
+
+.videopage-nav, .vpn-button *{display:flex; align-content:center;}
+.vpn-button{height:48px; margin-right:var(--section-space-small); padding:0 var(--section-space-medium); border:3px solid;}
+.vpn-like .svgicon-like{margin-right:var(--section-space-small);}

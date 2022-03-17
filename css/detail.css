@@ -11,10 +11,6 @@
 .vpt-link{width:100%; height:var(--nav-height); display:flex; justify-content:center; align-items:center; 
 font-weight:normal; border-bottom:4px solid;}
 
-.videopage-nav, .vpn-button *{display:flex; align-content:center;}
-.vpn-button{height:48px; margin-right:var(--section-space-small); padding:0 var(--section-space-medium); border:3px solid;}
-.vpn-like .svgicon-like{margin-right:var(--section-space-small);}
-
 .videopage-content{padding:var(--section-space-medium); display:grid; grid-gap:var(--section-space-big);}
 .videopage-info{display:grid; grid-gap:var(--section-space-small);}
 .videopage-info .streamer-box{padding-top:var(--section-space-medium); border-top:1px dashed; margin:var(--section-space-small) 0;}
