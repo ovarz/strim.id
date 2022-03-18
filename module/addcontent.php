@@ -40,7 +40,7 @@
 	  <input class="addcontent-form-field" type="file"/>
 	  <button class="addcontent-browse"></button>
 	</div>
-    <button class="btn addcontent-btn addcontent-form-fullwidth" onclick="location.href='news/'">Submit</button>
+    <button class="btn addcontent-btn addcontent-form-fullwidth" onclick="location.href='home.php'">Submit</button>
   </div>
   <script defer src="js/addcontent.js?<?php echo $anticache; ?>"></script>
 </section>
