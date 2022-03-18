@@ -117,7 +117,7 @@
 			  <svg class="svgicon svgicon-image" width="16" height="16" viewBox="0 0 512 512"><path d="M447.1 32h-384C28.64 32-.0091 60.65-.0091 96v320c0 35.35 28.65 64 63.1 64h384c35.35 0 64-28.65 64-64V96C511.1 60.65 483.3 32 447.1 32zM111.1 96c26.51 0 48 21.49 48 48S138.5 192 111.1 192s-48-21.49-48-48S85.48 96 111.1 96zM446.1 407.6C443.3 412.8 437.9 416 432 416H82.01c-6.021 0-11.53-3.379-14.26-8.75c-2.73-5.367-2.215-11.81 1.334-16.68l70-96C142.1 290.4 146.9 288 152 288s9.916 2.441 12.93 6.574l32.46 44.51l93.3-139.1C293.7 194.7 298.7 192 304 192s10.35 2.672 13.31 7.125l128 192C448.6 396 448.9 402.3 446.1 407.6z"/></svg>
 			</div>
 		    <div class="addcontent-link-label content_center">
-			  <span>image</span>
+			  <span>Create banner trailer</span>
 			</div>
 		  </a>
 		  <a class="addcontent-link" href="addcontent/video.php">
@@ -125,7 +125,7 @@
 			  <svg class="svgicon svgicon-video" width="18" height="16" viewBox="0 0 576 512"><path d="M384 112v288c0 26.51-21.49 48-48 48h-288c-26.51 0-48-21.49-48-48v-288c0-26.51 21.49-48 48-48h288C362.5 64 384 85.49 384 112zM576 127.5v256.9c0 25.5-29.17 40.39-50.39 25.79L416 334.7V177.3l109.6-75.56C546.9 87.13 576 102.1 576 127.5z"/></svg>
 			</div>
 		    <div class="addcontent-link-label content_center">
-			  <span>video</span>
+			  <span>Create video trailer</span>
 			</div>
 		  </a>
 		</div>

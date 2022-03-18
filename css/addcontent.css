@@ -2,8 +2,11 @@
 .addcontent-form-field{width:100%; border:1px solid rgba(255,255,255,0.25); padding:var(--section-space-medium); margin-top:var(--section-space-small);
 border-radius:var(--rounded-normal); background-color:transparent; color:#FFF;}
 textarea.addcontent-form-field{min-height:160px;}
+.addcontent-form-column{position:relative;}
 .addcontent-form-column .vbl-info .addcontent-btn{display:none;}
 .addcontent-form-column .video-box{max-width:360px; margin-top:var(--section-space-small);}
+
+.addcontent-browse{position:absolute; z-index:10; top:0; left:0; width:100%; height:100%; background-color:transparent;}
 
 .addcontent-choose{position:fixed; z-index:calc(var(--max-zindex) - 1000); bottom:0; left:0; width:100%; height:100vh; padding-top:var(--body-padding);
 background-color:var(--color-background); display:none; overflow:auto;}

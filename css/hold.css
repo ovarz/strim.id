@@ -159,7 +159,7 @@ a.spa-button:hover{opacity:0.5;}
 .footer-link{color:var(--color-link-secondary);}
 .footer-link:hover{opacity:0.5;}
 
-.addcontent-popup{position:absolute; right:0; padding:0 var(--section-space-small); width:100%; width:240px; padding:8px;}
+.addcontent-popup{position:absolute; right:0; padding:0 var(--section-space-small); width:100%; width:260px; padding:8px;}
 .addcontent-box{--icon-size:56px; border:1px solid rgba(255,255,255,0.15); background-color:hsl(var(--color-bodysticky) / 90%); 
 border-radius:var(--rounded-normal); display:grid; grid-template-columns:1fr;}
 .addcontent-box > *:not(:first-child){border-top:1px solid rgba(255,255,255,0.15);}
