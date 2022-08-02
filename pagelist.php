@@ -63,7 +63,6 @@
         <ul>
           <li><a class="pagelist-row" href="username/">Halaman Detail Profil Streamer</a></li>
           <li><a class="pagelist-row" href="username/package/">Halaman Daftar Paket per Streamer</a></li>
-          <li><a class="pagelist-row" href="username/package/empty.php">Halaman Daftar Paket Kosong</a></li>
           <li><a class="pagelist-row" href="username/package/vod/">Halaman Daftar video dari Free Package</a></li>
           <li><a class="pagelist-row" href="username/package/vod/premium.php">Halaman Daftar video dari Premium Package</a></li>
           <li><a class="pagelist-row" href="username/package/vod/premium-bought.php">Halaman Daftar video dari Subscription Package</a></li>
@@ -93,6 +92,16 @@
           <li><a class="pagelist-row" href="profile/">Halaman Detail Profil User</a></li>
           <li><a class="pagelist-row" href="profile/edit.php">Halaman Edit Profil User</a></li>
           <li><a class="pagelist-row" href="profile/subscribe.php">Halaman Daftar Subscribe per User</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="pagelist-row">Halaman Kosong</div>  
+        <ul>
+          <li><a class="pagelist-row" href="empty.php">Halaman Utama Kosong</a></li>
+          <li><a class="pagelist-row" href="package/empty.php">Halaman My Package Kosong</a></li>
+          <li><a class="pagelist-row" href="username/package/empty.php">Halaman Daftar Paket Kosong</a></li>
+          <li><a class="pagelist-row" href="live/empty.php">Halaman Live Kosong</a></li>
+          <li><a class="pagelist-row" href="live/schedule-empty.php">Halaman Jadwal Live Kosong</a></li>
         </ul>
       </li>
     </ul>

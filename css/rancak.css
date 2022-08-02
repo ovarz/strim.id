@@ -193,6 +193,9 @@ height:48px; justify-content:center; margin-top:var(--section-space-medium); bac
 .sps-container .package-info{position:relative; white-space:normal; padding-top:0;}
 .sps-container .package-title{font-size:14px; -webkit-line-clamp:1;}
 
+.sps-container .mypackage-empty{display:flex; border:2px dashed;}
+.sps-container .mypackage-empty svg{width:48px; height:auto; margin-bottom:var(--section-space-medium);}
+
 .section-package-cover{position:relative; max-height:240px; overflow:hidden;}
 .section-package-cover:before{content:''; display:block; padding-top:56.25%;}
 .section-package-cover > *{position:absolute; top:0; left:0; width:100%; height:100%;}
@@ -208,6 +211,10 @@ height:48px; justify-content:center; margin-top:var(--section-space-medium); bac
 .section-live-date{display:flex; justify-content:center; gap:var(--section-space-big); margin:var(--section-space-big) var(--section-space-medium);}
 .section-live-date *{text-align:center;}
 .sld-label{font-weight:normal; margin-top:var(--section-space-tiny); font-size:12px;}
+.section-live-empty{min-height:calc(100vh - (var(--body-padding) * 4));}
+.section-live-schedule-empty{min-height:calc(100vh - (var(--body-padding) * 7));}
+.sle-icon .svgicon{width:55px; height:auto; fill:var(--color-default);}
+.sle-label{text-align:center; margin-top:var(--section-space-medium);}
 
 .section-package-info{margin:0 var(--section-space-medium);}
 .spi-title{font-weight:600; font-size:18px; margin-bottom:var(--section-space-tiny);}
